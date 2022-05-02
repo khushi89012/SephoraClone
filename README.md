@@ -1,2 +1,2 @@
 # SephoraClone
-Unit 5 project 
+Unit 5 project
