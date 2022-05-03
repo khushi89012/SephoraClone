@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { ProductCard } from "../../StyledComponants/ProductCard";
 
-
 import "./MainBody.css";
 
 export const Product = () => {
@@ -12,7 +11,7 @@ export const Product = () => {
   }, []);
 
   const getdata = async () => {
-    fetch(`http://localhost:8080/products`)
+    fetch(`http://localhost:8080/hairdata`)
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
@@ -22,28 +21,26 @@ export const Product = () => {
 
   return (
     <>
-    
       <div id="MainContainer">
-      
         <div id="leftNavigation"></div>
         <div id="productpagecart">
           {product.map((e) => (
-            <div key={e.productId} id="productCard">
-              <ProductCard>
-              <div id="imgDiv">
-                <img src={e.image450} id="productimg" />
-                <div id="Scrollup_Button" >
-                  <button>Add To Cart</button>
-                  <button>Add to Wishlist</button>
+            <div id="productCard" key={e.productName}>
+              <ProductCard Product={product}>
+                <div id="imgDiv">
+                  <img src={e.image_url} id="productimg" />
+                  <div id="Scrollup_Button">
+                    <button>Add To Cart</button>
+                    <button>Add to Wishlist</button>
+                  </div>
                 </div>
-              </div>
-              <div id="textDiv">
-                <p>{e.brandName}</p>
-                <p>{e.displayName}</p>
-                <p>₹ {e.currentSku.listPrice}</p>
-              </div>
+                <div id="textDiv">
+                  <p>{e.brandname}</p>
+                  <p>{e.productName}</p>
+                  <p>₹ {e.price}</p>
+                </div>
               </ProductCard>
-             </div> 
+            </div>
           ))}
         </div>
       </div>

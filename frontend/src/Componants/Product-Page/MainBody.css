@@ -13,7 +13,7 @@
   display: grid;
   margin-left: 2%;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid green;
+  /* border: 1px solid green; */
   grid-row-gap: 0.5%;
   grid-column-gap: 0.5%;
 }
@@ -23,7 +23,7 @@
 }
 #imgDiv {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 #Scrollup_Button {
