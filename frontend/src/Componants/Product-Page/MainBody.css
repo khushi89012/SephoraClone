@@ -1,0 +1,56 @@
+#MainContainer {
+  display: flex;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#leftNavigation {
+  width: 20%;
+  border: 1px solid red;
+}
+#productpagecart {
+  width: 78%;
+  display: grid;
+  margin-left: 2%;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid green;
+  grid-row-gap: 0.5%;
+  grid-column-gap: 0.5%;
+}
+#productimg {
+  width: 95%;
+  padding: 5%;
+}
+#imgDiv {
+  width: 100%;
+  border: 1px solid red;
+  position: relative;
+}
+#Scrollup_Button {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 700ms;
+  background-color: #7df9ff;
+}
+#Scrollup_Button>button{
+    width: 50%;
+    background-color: #40E0D0;
+    border: 0px;
+}
+#textDiv {
+  width: 100%;
+  margin-top: 0px;
+  line-height: 0.4;
+}
+#textDiv > p {
+    font-family:'Avenir Next';
+  /* line-height: 0.5; */
+}
+#textDiv > p:nth-child(odd) {
+  font-weight: 600;
+}
