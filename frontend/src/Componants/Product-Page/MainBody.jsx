@@ -11,7 +11,7 @@ export const Product = () => {
   }, []);
 
   const getdata = async () => {
-    fetch(`http://localhost:8080/hairdata`)
+    fetch(`  http://localhost:8080/MackupData`)
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
@@ -28,7 +28,8 @@ export const Product = () => {
             <div id="productCard" key={e.productName}>
               <ProductCard Product={product}>
                 <div id="imgDiv">
-                  <img src={e.image_url} id="productimg" />
+                  <img src={e.image_url} id="productimg1" />
+                  <img src={e.image2_url} id="productimg2" />
                   <div id="Scrollup_Button">
                     <button>Add To Cart</button>
                     <button>Add to Wishlist</button>

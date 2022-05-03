@@ -17,13 +17,19 @@
   grid-row-gap: 0.5%;
   grid-column-gap: 0.5%;
 }
-#productimg {
-  width: 95%;
-  padding: 5%;
+#productimg1 {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+}
+#productimg2 {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  display: none;
 }
 #imgDiv {
   width: 100%;
-  /* border: 1px solid red; */
   position: relative;
 }
 #Scrollup_Button {

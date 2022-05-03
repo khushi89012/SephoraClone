@@ -7,9 +7,13 @@ const ProductCard=styled.div`
     bottom: 0;
     opacity: 1;
 }
-&:hover #productimg{
-  content: url({pros.Product.image2_url});
+&:hover #productimg1{
+ display: none;
 }
+&:hover #productimg2{
+ display: block;
+}
+
 `
 
 export {ProductCard}
