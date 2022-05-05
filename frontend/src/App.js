@@ -1,11 +1,14 @@
 
 import './App.css';
-import { Product } from './Componants/Product-Page/MainBody';
+import { HairProduct } from './Componants/Product-Page/HairProduct';
+import { MackupProduct } from './Componants/Product-Page/MackUpProduct';
+
 
 function App() {
   return (
     <div className="App">
-      <Product/>
+     <HairProduct/>
+     {/* <MackupProduct/> */}
     </div>
   );
 }

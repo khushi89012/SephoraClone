@@ -6,7 +6,8 @@
        "brandname" : "MAYA CHIP",
        "productName" : "Power Fol Eyelash | Eyebrow Treatment",
         "price" :  4320,
-        "available" : "3 more color"
+        "available" : "3 more color",
+        "background":"hair"
        },
        {
            "image_url": "https://cdn.shopify.com/s/files/1/0637/6147/products/ProductHeroImage-GuavaRescueSpray_720x.jpg?v=1629846425",
@@ -14,7 +15,8 @@
         "brandname" : "CEREMONIA",
         "productName" : "Guava Rescue Spray",
         "price" : 2880,
-        "available" : "2 more color"
+        "available" : "2 more color",
+        "background":"hair"
            
        },
        {
@@ -23,7 +25,8 @@
         "brandname" : "CEREMONIA",
         "productName" : "Guava Leave in Conditioner",
         "price" : 3960,
-        "available" : "1 more color"
+        "available" : "1 more color",
+        "background":"hair"
            
        },
        {
@@ -32,7 +35,8 @@
         "brandname" : "CEREMONIA" ,
         "productName" : "Aceite de Moska",
         "price" : 3600,
-        "available" : "2 more color"
+        "available" : "2 more color",
+        "background":"hair"
            
        },
        {
@@ -41,7 +45,8 @@
         "brandname" : "CAPTAIN BLANKENSHIP",
         "productName" : "Sea Shine Conditioner",
         "price" : 2160,
-        "available" : "4 more color"
+        "available" : "4 more color",
+        "background":"hair"
            
        },
        {
@@ -50,7 +55,8 @@
         "brandname" : "MAYA CHIP",
         "productName" : "GOOPGLOW Restore + Shine Hair Serum",
         "price" : 4680,
-        "available" : "4 more color"
+        "available" : "4 more color",
+        "background":"hair"
            
        },
        {
@@ -59,7 +65,8 @@
         "brandname" : "CEREMONIA",
         "productName" : "Champú de Yucca & Witch Hazel Shampoo",
         "price" : 3240,
-        "available" : "3 more color"
+        "available" : "3 more color",
+        "background":"hair"
            
        },
        {
@@ -68,7 +75,8 @@
         "brandname" : "CAPTAIN BLANKENSHIP",
         "productName" : "Sea Shine Shampoo",
         "price" : 3960,
-        "available" : "5 more color"
+        "available" : "5 more color",
+        "background":"hair"
            
        },
        {
@@ -77,8 +85,8 @@
         "brandname" : "INNERSENSE ORGANIC BEAUTY",
         "productName" : "Sweet Spirit Leave In Conditioner",
         "price" : 4752,
-        "available" : "2 more color"
-           
+        "available" : "2 more color",
+        "background":"hair"  
        },
        {
            "image_url":"https://cdn.shopify.com/s/files/1/0637/6147/products/Hydrating-Cream-Conditionerr-10oz_900x.jpg?v=1604626318",
@@ -86,8 +94,8 @@
         "brandname" : "INNERSENSE ORGANIC BEAUTY",
         "productName" : "Hydrating Cream Conditioner",
         "price" : 1800,
-        "available" : "3 more color"
-           
+        "available" : "3 more color",
+        "background":"hair"  
        },
        {
            "image_url": "https://cdn.shopify.com/s/files/1/0637/6147/products/G.ToxScalpScrub-Travel.jpg?v=1614271738",
@@ -95,7 +103,8 @@
         "brandname" : "MAYA CHIP",
         "productName" : "G.Tox Himalayan Salt Scalp Scrub Shampoo",
         "price" : 4752,
-        "available" : "5 more color"
+        "available" : "5 more color",
+        "background":"hair" 
            
        },
        {
@@ -104,7 +113,8 @@
         "brandname" : "INNERSENSE ORGANIC BEAUTY",
         "productName" : "Hydrating Cream Hairbath",
         "price" : 3800,
-        "available" : "2 more color"
+        "available" : "2 more color",
+        "background":"hair" 
            
        },
        {
@@ -113,7 +123,8 @@
         "brandname" : "EVOLVH",
         "productName" : "UltraShine Moisture Shampoo",
         "price" : 2160,
-        "available" : "1 more color"
+        "available" : "1 more color",
+        "background":"hair" 
            
        },
        {
@@ -122,7 +133,8 @@
         "brandname" : "INNERSENSE ORGANIC BEAUTY",
         "productName" : "Pure Harmony Hairbath",
         "price" : 4276,
-        "available" : "3 more color"
+        "available" : "3 more color",
+        "background":"hair" 
            
        },
        {
@@ -131,7 +143,8 @@
         "brandname" : "JOSH ROSEBROOK",
         "productName" : "UltraShine Moisture Conditioner",
         "price" : 798,
-        "available" : "2 more color"
+        "available" : "2 more color",
+        "background":"hair" 
            
        },
        {
@@ -140,7 +153,8 @@
         "brandname" : "INNERSENSE ORGANIC BEAUTY",
         "productName" : "Milk Anti-Frizz Leave-In Nourishing Treatment",
         "price" : 1872,
-        "available" : "4 more color"
+        "available" : "4 more color",
+        "background":"hair" 
            
        },
        {
@@ -149,7 +163,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "Color Awakening Hairbath",
            "price": 1700,
-           "available" : "2 more color"
+           "available" : "2 more color",
+           "background":"hair" 
 
        },
        {
@@ -158,7 +173,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "Color Radiance Daily Conditioner",
            "price": 2300,
-           "availabler" : "3 more color"
+           "availabler" : "3 more color",
+           "background":"hair" 
 
        },
        {
@@ -167,7 +183,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "Pure Inspiration Daily Conditioner",
            "price": 4790,
-           "available" : "3 more color"
+           "available" : "3 more color",
+           "background":"hair" 
 
        },
        {
@@ -176,7 +193,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "Quiet Calm Curl Control",
            "price": 2671,
-           "available" : "4 more color"
+           "available" : "4 more color",
+           "background":"hair" 
 
        },
        {
@@ -185,7 +203,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "I Create Lift Volumizing Foam",
            "price": 3500,
-           "available" : "4 more color"
+           "available" : "4 more color",
+           "background":"hair" 
 
        },
        {
@@ -194,7 +213,8 @@
            "brandname": "JOSH ROSEBROOK",
            "productName": "Mermaid Dry Shampoo",
            "price": 1400,
-           "available" : "3 more color"
+           "available" : "3 more color",
+           "background":"hair" 
 
        },
        {
@@ -203,7 +223,8 @@
            "brandname": "MAYA CHIP",
            "productName": "Go Easy Daily Shampoo",
            "price": 3680,
-           "available" : "2 more color"
+           "available" : "2 more color",
+           "background":"hair" 
 
        },
        {
@@ -212,7 +233,8 @@
            "brandname": "EVOLVH",
            "productName": "Overnight Dry Shampoo",
            "price": 3600,
-           "available" : "3 more color"
+           "available" : "3 more color",
+           "background":"hair" 
 
        },
        {
@@ -221,7 +243,8 @@
            "brandname": "JOSH ROSEBROOK",
            "productName": "SuperHair Daily Hair Nutrition",
            "price": 2300,
-           "available" : "4 more color"
+           "available" : "4 more color",
+           "background":"hair" 
 
        },
       
@@ -231,7 +254,8 @@
            "brandname": "JOSH ROSEBROOK",
            "productName": "Lift Hair Texture and Volume",
            "price": 2100,
-           "available" : "3 more color"
+           "available" : "3 more color",
+           "background":"hair" 
 
        },
        {
@@ -240,7 +264,8 @@
            "brandname": "INNERSENSE ORGANIC BEAUTY",
            "productName": "I Create Finish",
            "price": 1980,
-           "available" : "2 more color"
+           "available" : "2 more color",
+           "background":"hair" 
 
        }
        ],
@@ -253,7 +278,8 @@
           "brandname": "WESTMAN ATELIER",
           "productName":"Eye Pods",
           "price": 7580,
-          "available":"3 more colors"
+          "available":"3 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -263,7 +289,8 @@
           "brandname": "ILIA",
           "productName":"Fullest Volumizing Mascara",
           "price": 1900,
-          "available":"2 more sizes"
+          "available":"2 more sizes",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -273,7 +300,8 @@
           "brandname": "KJAER WEIS",
           "productName":"Im-Possible Mascara",
           "price": 2450,
-          "available":"2 more sizes"
+          "available":"2 more sizes",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -283,7 +311,8 @@
           "brandname": "TOWER 28",
           "productName":"SunnyDays Tinted SPF Sunscreen Foundation",
           "price": 2530,
-          "available":"14 more colors"
+          "available":"14 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -293,7 +322,8 @@
           "brandname": "ILIA",
           "productName":"Small Wonders",
           "price": 2199,
-          "available":"4 more colors"
+          "available":"4 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -303,7 +333,8 @@
           "brandname": "KJAER WEIS",
           "productName":"Light Show Color Melt Multi-Use Pigment",
           "price": 2399,
-          "available":"8 more colors"
+          "available":"8 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -313,7 +344,8 @@
           "brandname": "JONES ROAD",
           "productName":"Miracle Balm",
           "price": 2199,
-          "available":"6 more colors"
+          "available":"6 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -323,7 +355,8 @@
           "brandname": "JONES ROAD",
           "productName":"The Face Pencil",
           "price": 1799,
-          "available":"25 more colors"
+          "available":"25 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -333,7 +366,8 @@
           "brandname": "ILIA",
           "productName":"Limitless Lash Mascara",
           "price": 1899,
-          "available":"2 more sizes"
+          "available":"2 more sizes",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -343,7 +377,8 @@
           "brandname": "ILIA",
           "productName":"Super Serum Skin Tint SPF 40",
           "price": 3299,
-          "available":"30 more colors"
+          "available":"30 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -353,7 +388,8 @@
           "brandname": "LILY LOLO",
           "productName":"Lily Lolo Vegan Mascara",
           "price": 1399,
-          "available":"3 more colors"
+          "available":"3 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -363,7 +399,8 @@
           "brandname": "KJAER WEIS",
           "productName":"5-in-1 Tinted Moisturizing Face Sunscreen",
           "price": 5500,
-          "available":"4 more colors"
+          "available":"4 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -373,7 +410,8 @@
           "brandname": "LILY LOLO",
           "productName":"Olio E Osso Tinted Balms",
           "price": 2870,
-          "available":"11 more colors"
+          "available":"11 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -383,7 +421,8 @@
           "brandname": "JONES ROAD",
           "productName":"'Un' Cover-Up",
           "price": 2040,
-          "available":"16 more colors"
+          "available":"16 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -393,7 +432,8 @@
           "brandname": "ILIA",
           "productName":"True Skin Serum Concealer",
           "price": 1400,
-          "available":"20 more colors"
+          "available":"20 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -403,7 +443,8 @@
           "brandname": "WESTMAN ATELIER",
           "productName":"Vital Skin Foundation Stick",
           "price":  5100,
-          "available":"21 more colors"
+          "available":"21 more colors",
+          "background":"skin" 
         },
        
         {
@@ -414,7 +455,8 @@
           "brandname": "KJAER WEIS",
           "productName":"Weightless Lipstick",
           "price": 1999,
-          "available":"8 more colors"
+          "available":"8 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -424,7 +466,8 @@
           "brandname": "WESTMAN ATELIER",
           "productName":"Baby Cheeks Blush Stick",
           "price": 3879,
-          "available":"6 more colors"
+          "available":"6 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -434,7 +477,8 @@
           "brandname": "TOWER 28",
           "productName":"Revealer Super Creamy + Brightening Concealer",
           "price": 2449,
-          "available":"28 more colors"
+          "available":"28 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -444,7 +488,8 @@
           "brandname": "ILIA",
           "productName":"Ilia Multi-Stick",
           "price": 3470,
-          "available":"8 more colors"
+          "available":"8 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -454,7 +499,8 @@
           "brandname": "JONES ROAD",
           "productName":"Expressionist PRO Mascara",
           "price": 1989,
-          "available":"3 more colors"
+          "available":"3 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -464,7 +510,8 @@
           "brandname": "TOWER 28",
           "productName":"High Fidelity Foundation",
           "price": 3861,
-          "available":"43 more colors"
+          "available":"43 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -474,7 +521,8 @@
           "brandname": "JONES ROAD",
           "productName":"Brow Goals Pencil",
           "price": 1499,
-          "available":"5 more colors"
+          "available":"5 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -484,7 +532,8 @@
           "brandname": "TOWER 28",
           "productName":"ShineOn Lip Jelly",
           "price": 1559,
-          "available":"7 more colors"
+          "available":"7 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -494,7 +543,8 @@
           "brandname": "ILIA",
           "productName":"Clean Line Liquid Liner",
           "price": 2829,
-          "available":"4 more colors"
+          "available":"4 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -504,7 +554,8 @@
           "brandname": "WESTMAN ATELIER",
           "productName":"Lit Up Highlight Stick",
           "price": 4839,
-          "available":"3 more colors"
+          "available":"3 more colors",
+          "background":"skin" 
         },
         {
           "image_url":
@@ -514,7 +565,8 @@
           "brandname": "ILIA",
           "productName":"Liquid Powder Chromatic Eye Tint",
           "price": 2869,
-          "available":"8 more colors"
+          "available":"8 more colors",
+          "background":"skin" 
         }
      ]
 
