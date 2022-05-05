@@ -7,14 +7,14 @@ import "./MainBody.css";
 export const HairProduct = () => {
   const [product, setproduct] = useState([]);
   const [brandfilter, setBrandFilter] = useState("ALL");
-  const [priceRane, setPriceRange]=useState("0-10000")
+  const [priceRane, setPriceRange] = useState("0-10000");
 
   useEffect(() => {
     getdata();
   }, []);
 
   const getdata = async () => {
-    fetch(`http://localhost:8080/hairdata`)
+    fetch(`http://localhost:4700/hair`)
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
@@ -40,58 +40,49 @@ export const HairProduct = () => {
     }
   };
 
-  const dobrandFilter=(product)=>{
-    if(brandfilter=="ALL"){
-      return true
-    }
-    else{
-      if(brandfilter===product.brandname){
-        return true
+  const dobrandFilter = (product) => {
+    if (brandfilter == "ALL") {
+      return true;
+    } else {
+      if (brandfilter === product.brandname) {
+        return true;
       }
     }
-  }
+  };
 
-  const priceRaneFilter=(product)=>{
-    if(priceRane==="0-10000"){
-      return true
-    }
-    else if(priceRane==="0-1000"){
-      if(product.price>=0 && product.price<=1000){
-        return true
+  const priceRaneFilter = (product) => {
+    if (priceRane === "0-10000") {
+      return true;
+    } else if (priceRane === "0-1000") {
+      if (product.price >= 0 && product.price <= 1000) {
+        return true;
+      }
+    } else if (priceRane === "1001-2000") {
+      if (product.price >= 1001 && product.price <= 2000) {
+        return true;
+      }
+    } else if (priceRane === "2001-3000") {
+      if (product.price >= 2001 && product.price <= 3000) {
+        return true;
+      }
+    } else if (priceRane === "3001-4000") {
+      if (product.price >= 3001 && product.price <= 4000) {
+        return true;
+      }
+    } else if (priceRane === "4001-5000") {
+      if (product.price >= 4001 && product.price <= 5000) {
+        return true;
+      }
+    } else if (priceRane === "5001-6000") {
+      if (product.price >= 5001 && product.price <= 6000) {
+        return true;
+      }
+    } else if (priceRane === "6001-10000") {
+      if (product.price >= 6001 && product.price <= 10000) {
+        return true;
       }
     }
-    else if(priceRane==="1001-2000"){
-      if(product.price>=1001 && product.price<=2000){
-        return true
-      }
-    }
-    else if(priceRane==="2001-3000"){
-      if(product.price>=2001 && product.price<=3000){
-        return true
-      }
-    }
-    else if(priceRane==="3001-4000"){
-      if(product.price>=3001 && product.price<=4000){
-        return true
-      }
-    }
-    else if(priceRane==="4001-5000"){
-      if(product.price>=4001 && product.price<=5000){
-        return true
-      }
-    }
-    else if(priceRane==="5001-6000"){
-      if(product.price>=5001 && product.price<=6000){
-        return true
-      }
-    }
-    else if(priceRane==="6001-10000"){
-      if(product.price>=6001 && product.price<=10000){
-        return true
-      }
-    }
-
-  }
+  };
 
   return (
     <>
@@ -152,19 +143,21 @@ export const HairProduct = () => {
               </option>
               <option value="EVOLVH">EVOLVH</option>
             </select>
-            <select id="s1" onChange={(e)=>{
-              setPriceRange(e.target.value)
-            }} >
-            <option value="0-10000">PRICE</option>
-            <option value="0-1000">0 to 1000</option>
-            <option value="1001-2000">1001 to 2000</option>
-            <option value="2001-3000">2001 to 3000</option>
-            <option value="3001-4000">3001 to 4000</option>
-            <option value="4001-5000">4001 to 5001</option>
-            <option value="5001-6000">5001 to 6000</option>
-            <option value="6001-10000">5001 & Above</option>
-            
-          </select>
+            <select
+              id="s1"
+              onChange={(e) => {
+                setPriceRange(e.target.value);
+              }}
+            >
+              <option value="0-10000">PRICE</option>
+              <option value="0-1000">0 to 1000</option>
+              <option value="1001-2000">1001 to 2000</option>
+              <option value="2001-3000">2001 to 3000</option>
+              <option value="3001-4000">3001 to 4000</option>
+              <option value="4001-5000">4001 to 5001</option>
+              <option value="5001-6000">5001 to 6000</option>
+              <option value="6001-10000">5001 & Above</option>
+            </select>
             <div id="btn">
               <button>
                 <span>Size</span>
@@ -191,7 +184,13 @@ export const HairProduct = () => {
             .filter(dobrandFilter)
             .filter(priceRaneFilter)
             .map((e) => (
-              <div id="productCard" key={e.productName}>
+              <div
+                id="productCard"
+                key={e.productName}
+                onClick={(event) => {
+                  localStorage.setItem("sephora", JSON.stringify(e));
+                }}
+              >
                 <ProductCard Product={product}>
                   <div id="imgDiv">
                     <img src={e.image_url} id="productimg1" />
@@ -199,15 +198,30 @@ export const HairProduct = () => {
                     <div id="Scrollup_Button">
                       <button
                         onClick={(event) => {
-                          console.log(e);
+                          var cartArr =
+                            JSON.parse(localStorage.getItem("sephoracart")) ||
+                            [];
+                          cartArr.push(e);
+                          localStorage.setItem(
+                            "sephoracart",
+                            JSON.stringify(cartArr)
+                          );
                         }}
                       >
                         <HiOutlineShoppingBag id="symbollcss"></HiOutlineShoppingBag>
-                        <span id="textCSS">SHOP NNNOW</span>
+                        <span id="textCSS">Add to cart</span>
                       </button>
                       <button
                         onClick={(event) => {
-                          console.log(e);
+                          var wishlistArr =
+                            JSON.parse(
+                              localStorage.getItem("sephorawishlist")
+                            ) || [];
+                          wishlistArr.push(e);
+                          localStorage.setItem(
+                            "sephorawishlist",
+                            JSON.stringify(wishlistArr)
+                          );
                         }}
                       >
                         <MdFavoriteBorder id="symbollcss"></MdFavoriteBorder>

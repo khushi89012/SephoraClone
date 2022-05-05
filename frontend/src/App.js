@@ -1,14 +1,12 @@
-
-import './App.css';
-import { HairProduct } from './Componants/Product-Page/HairProduct';
-import { MackupProduct } from './Componants/Product-Page/MackUpProduct';
-
+import "./App.css";
+import { HairProduct } from "./Componants/Product-Page/HairProduct";
+import { MackupProduct } from "./Componants/Product-Page/MackUpProduct";
 
 function App() {
   return (
     <div className="App">
-     <HairProduct/>
-     {/* <MackupProduct/> */}
+      <HairProduct />
+      {/* <MackupProduct/> */}
     </div>
   );
 }
