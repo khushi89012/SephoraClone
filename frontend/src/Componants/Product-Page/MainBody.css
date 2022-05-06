@@ -55,6 +55,7 @@
 }
 #textDiv > p {
   font-family: "Avenir Next";
+  color: black;
 }
 #textDiv > p:nth-child(odd) {
   font-weight: 600;

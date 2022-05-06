@@ -187,7 +187,9 @@ export const MackupProduct = () => {
                 id="productCard"
                 key={e.productName}
                 onClick={() => {
-                  localStorage.setItem("sephora", JSON.stringify(e));
+                  let arr=[]
+                  arr.push(e)
+                  localStorage.setItem("hemant", JSON.stringify(arr));
                 }}
               >
                 <ProductCard Product={product}>
@@ -198,11 +200,11 @@ export const MackupProduct = () => {
                       <button
                         onClick={(event) => {
                           var cartArr =
-                            JSON.parse(localStorage.getItem("sephoracart")) ||
+                            JSON.parse(localStorage.getItem("sai")) ||
                             [];
                           cartArr.push(e);
                           localStorage.setItem(
-                            "sephoracart",
+                            "sai",
                             JSON.stringify(cartArr)
                           );
                         }}

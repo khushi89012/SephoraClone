@@ -3,6 +3,7 @@ import { ProductCard } from "../../StyledComponants/ProductCard";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdFavoriteBorder } from "react-icons/md";
 import "./MainBody.css";
+import { Link } from "react-router-dom";
 
 export const HairProduct = () => {
   const [product, setproduct] = useState([]);
@@ -188,9 +189,12 @@ export const HairProduct = () => {
                 id="productCard"
                 key={e.productName}
                 onClick={(event) => {
-                  localStorage.setItem("sephora", JSON.stringify(e));
+                  let arr=[]
+                  arr.push(e)
+                  localStorage.setItem("hemant", JSON.stringify(arr));
                 }}
               >
+                <Link to={`/productdetail`}>
                 <ProductCard Product={product}>
                   <div id="imgDiv">
                     <img src={e.image_url} id="productimg1" />
@@ -199,11 +203,11 @@ export const HairProduct = () => {
                       <button
                         onClick={(event) => {
                           var cartArr =
-                            JSON.parse(localStorage.getItem("sephoracart")) ||
+                            JSON.parse(localStorage.getItem("sai")) ||
                             [];
                           cartArr.push(e);
                           localStorage.setItem(
-                            "sephoracart",
+                            "sai",
                             JSON.stringify(cartArr)
                           );
                         }}
@@ -235,6 +239,7 @@ export const HairProduct = () => {
                     <p>₹ {e.price}</p>
                   </div>
                 </ProductCard>
+                </Link>
               </div>
             ))}
         </div>
