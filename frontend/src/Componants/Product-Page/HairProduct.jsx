@@ -194,11 +194,13 @@ export const HairProduct = () => {
                   localStorage.setItem("hemant", JSON.stringify(arr));
                 }}
               >
-                <Link to={`/productdetail`}>
+                
                 <ProductCard Product={product}>
                   <div id="imgDiv">
+                  <Link to={`/productdetail`}>
                     <img src={e.image_url} id="productimg1" />
                     <img src={e.image2_url} id="productimg2" />
+                    </Link>
                     <div id="Scrollup_Button">
                       <button
                         onClick={(event) => {
@@ -213,7 +215,7 @@ export const HairProduct = () => {
                         }}
                       >
                         <HiOutlineShoppingBag id="symbollcss"></HiOutlineShoppingBag>
-                        <span id="textCSS">Add to cart</span>
+                        <span id="textCSS">ADD TO CART</span>
                       </button>
                       <button
                         onClick={(event) => {
@@ -233,13 +235,15 @@ export const HairProduct = () => {
                       </button>
                     </div>
                   </div>
+                  <Link to={`/productdetail`} style={{textDecoration: "none"}}>
                   <div id="textDiv">
                     <p>{e.brandname}</p>
                     <p>{e.productName}</p>
                     <p>₹ {e.price}</p>
                   </div>
+                  </Link>
                 </ProductCard>
-                </Link>
+                
               </div>
             ))}
         </div>

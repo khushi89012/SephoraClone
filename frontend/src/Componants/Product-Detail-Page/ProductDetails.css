@@ -43,11 +43,11 @@
 }
 #car2:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.05);
+  /* -webkit-transform: scale(1.05);
   transform: scale(1.05);
 
   -webkit-transition: 0.9s ease-in-out;
-  transition: 0.9s ease-in-out;
+  transition: 0.9s ease-in-out; */
 }
 #maindivbtn1:hover {
   cursor: pointer;

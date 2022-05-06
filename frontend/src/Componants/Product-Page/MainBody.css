@@ -17,6 +17,9 @@
   grid-row-gap: 0.5%;
   grid-column-gap: 0.5%;
 }
+#productpagecart:hover{
+  cursor: pointer;
+}
 #productimg1 {
   width: 100%;
   left: 0;
@@ -56,6 +59,7 @@
 #textDiv > p {
   font-family: "Avenir Next";
   color: black;
+  text-decoration: none;
 }
 #textDiv > p:nth-child(odd) {
   font-weight: 600;

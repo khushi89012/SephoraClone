@@ -3,6 +3,7 @@ import { ProductCard } from "../../StyledComponants/ProductCard";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdFavoriteBorder } from "react-icons/md";
 import "./MainBody.css";
+import { Link } from "react-router-dom";
 
 export const MackupProduct = () => {
   const [product, setproduct] = useState([]);
@@ -194,8 +195,10 @@ export const MackupProduct = () => {
               >
                 <ProductCard Product={product}>
                   <div id="imgDiv">
+                  <Link to={`/productdetail`}>
                     <img src={e.image_url} id="productimg1" />
                     <img src={e.image2_url} id="productimg2" />
+                    </Link>
                     <div id="Scrollup_Button">
                       <button
                         onClick={(event) => {
@@ -210,7 +213,7 @@ export const MackupProduct = () => {
                         }}
                       >
                         <HiOutlineShoppingBag id="symbollcss"></HiOutlineShoppingBag>
-                        <span id="textCSS">SHOP NNNOW</span>
+                        <span id="textCSS">ADD TO CART</span>
                       </button>
                       <button
                         onClick={(event) => {
@@ -230,11 +233,13 @@ export const MackupProduct = () => {
                       </button>
                     </div>
                   </div>
+                  <Link to={`/productdetail`} style={{textDecoration: "none"}}>
                   <div id="textDiv">
                     <p>{e.brandname}</p>
                     <p>{e.productName}</p>
                     <p>₹ {e.price}</p>
                   </div>
+                  </Link>
                 </ProductCard>
               </div>
             ))}
