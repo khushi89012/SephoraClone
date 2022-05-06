@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+/* //////////////////////////////////// */
+.Footercontainer-1{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: #f2f2f2;
+  
+}
+.Footer-11{
+    /* border: 1px solid rgb(34, 0, 255); */
+    font-size: 1.33333rem;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 50px 12px 10px;
+    font-size:25px;
+    font-family: Avenir-NextBold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.Footer-12{
+  /* border: 1px solid rgb(14, 194, 47); */
+  flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    
+    padding-bottom: 10px
+}
+.Footer-13{
+  /* border: 1px solid rgb(14, 194, 47); */
+  flex-direction: row;
+  width: 40%;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    
+    padding-bottom: 13px
+}
+.Footer-14{
+  flex-grow: 3;
+  border: 0;
+  padding: 15px;
+  background: #fff;
+  width: 30%;
+  min-width: 1rem;
+    min-height: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+.Footer-14:focus-visible{
+ border-style: none;
+}
+.Footer-15{flex-grow: 1;
+  display: inline-block;
+  border: 0;
+  padding: 10.5px;
+  background: #000;
+  cursor: pointer;
+  font-family: Avenir-NextBold;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;}
+
+
+
+  /* //////////////////// */
