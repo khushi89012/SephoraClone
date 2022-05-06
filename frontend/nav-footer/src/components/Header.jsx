@@ -2,7 +2,7 @@
  import "./Header.css"
  import { SiHackthebox } from "react-icons/Si";
  import { BiTrophy } from "react-icons/Bi";
- import { GrLocation } from "react-icons/Gr";
+ import {MdOutlineLocationOn } from "react-icons/Md";
  import { MdOutbox } from "react-icons/Md";
 export const Header = () => {
     return(
@@ -12,7 +12,7 @@ export const Header = () => {
                  <li> <img src="https://cdn2.iconfinder.com/data/icons/telegram/154/telegram-menu-bar-ui-256.png" alt="" /></li>
                   <li><img src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png" alt="" /></li>
                   <li>|</li>
-                  <li className="location"> <GrLocation/></li>
+                  <li> <MdOutlineLocationOn/></li>
                   <li>Store Locater</li>
                   </div>
               <div className="top-center">
