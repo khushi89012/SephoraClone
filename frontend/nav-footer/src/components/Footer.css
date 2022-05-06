@@ -88,13 +88,17 @@
   color: rgb(189, 91, 108);
 }
 .Footer-23{
-  background: #fff;
-  /* display: flex; */
+width: 17%;
+margin: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  list-style:none ;
+  justify-content: space-between;
 }
 
 .Footer-23 img{
-width: 10%;
-height: 10%;
+width:30px;
+height: 30px;
 }
 .Footer-24{
   list-style: none;

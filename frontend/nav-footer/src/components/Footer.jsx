@@ -36,9 +36,13 @@ export const Footer=()=>{
          <a target="_self"  href="/contactus" className="Footer-22"><h4>CONTACT US</h4></a>
         </div>
          <div className="Footer-23">
-         <p><AiFillFacebook/></p>
-         <p><FiStar/></p>
-         {/* <p><BsInstagram/></p> */}
+        
+         <li><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-facebook-512.png" alt="" /></li>
+         <li><img src="https://cdn0.iconfinder.com/data/icons/phosphor-thin-vol-3/256/instagram-logo-thin-128.png" alt="" /></li>
+         <li><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-256.png" alt="" /></li>
+         <li><img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-256.png" alt="" /></li>
+        
+
          </div>
          <div className="Footer-24">
              <div>
