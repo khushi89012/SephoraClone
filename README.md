@@ -74,7 +74,8 @@ compaign, campaign preveiw page and track campaign status , sections are the par
  
  ----
  <h3>Home page</h3>
-  ![Capture](https://user-images.githubusercontent.com/95909861/167255400-66057e3f-f9bd-422d-9e83-81cd1278ab34.PNG)
+![Capture](https://user-images.githubusercontent.com/95909861/167255571-88e88ae8-393b-4a6c-ae3c-fda48f018cbd.PNG)
+
 
 
  
@@ -107,6 +108,7 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 Sephora.netlify.app
  ------
  <h1>WEBSITE USER FLOW ></h1>
+ ----
 the user flow that we tried to maintain is,
 
 home -> login/signup -> dashboard -> get started to products -> create user Id-> Enter email details -> choose products -> Product detail page-> -> Products Check out page -> track status 
