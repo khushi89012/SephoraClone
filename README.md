@@ -6,15 +6,44 @@ In case of any suggestion and query feel free to connect us
  
  
  <h1>TOOLS AND TECHNOLOGY USED ></h1>
- <li>HTML (through React)</li>
+  <li>HTML (through React)</li>
      <li>css</li>
-<li>javascript</li>
+<li>javascript</li>  
 <li>React</li>
 <li>font Awesom icons</li>
 <li>bootstrap (for styling flash mesage)</li>
 <li>Nodejs</li>
 <li>ExpressJs</li>
 <li>mongodb atlas (for database)</li>
+<li>axios : 0.21.4</li>
+<li>concurrently : 6.3.0</li>
+<li>cors : 2.8.5</li>
+<li>dotenv : 10.0.0</li>
+ <li>React</li>
+ <li>Node.js</li>
+
+ 
+ 
+  <h1>Node packages and libraries ></h1>
+  <li>@fortawesome/fontawesome-svg-core: 1.2.36</li>
+ <li>@fortawesome/free-solid-svg-icons: 5.15.4</li>
+<li>@fortawesome/react-fontawesome: 0.1.15</li>  
+  <li>styled-components : 5.3.1</li>
+<li> axios : 0.21.4</li>
+ <li>concurrently : 6.3.0</li>
+ <li>cors : 2.8.5</li>
+<li>dotenv : 10.0.0</li>
+ <li>express : 4.17.1</li>
+ <li>mongoose : 6.0.8</li>
+<li>nodemon : 2.0.13</li>
+ <li>react : 17.0.2</li>
+ <li>react-dom : 17.0.2</li>
+ <li>react-dropzone : 11.4.2</li>
+ <li>react-router-dom : 5.3.0</li>
+ <li>react-scripts : 4.0.0</li>
+ <li>styled-components : 5.3.1</li>
+ 
+ 
  
  
  
