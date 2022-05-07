@@ -116,8 +116,8 @@ home -> login/signup -> dashboard -> get started to products -> create user Id->
 we really enjoyed this whole part of developing and haad a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
 
 Hemant Suryawanshi
- Khushi Gupta
- Ritu Bankey 
- Viraj Gupta
- Sai Narishma 
- Tanya Shrivastava
+ <li>Khushi Gupta</li>
+ <li>Ritu Bankey</li>
+ <li>Viraj Gupta</li>
+ <li> Sai Narishma </li>
+ <li> Tanya Shrivastava</li>
