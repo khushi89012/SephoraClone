@@ -74,7 +74,8 @@ compaign, campaign preveiw page and track campaign status , sections are the par
  
  ----
  <h3>Home page</h3>
-  ![Capture](https://user-images.githubusercontent.com/95909861/167254331-5fe8b21a-29ec-449d-9851-b9a9e507cad6.PNG)
+  ![Capture](https://user-images.githubusercontent.com/95909861/167255352-c8736eae-5ed6-4705-9a86-d3ff4029ec0f.PNG)
+
  
  <h3>Login page</h3>
  ![Capture](https://user-images.githubusercontent.com/95909861/167254484-c035146b-691d-4c67-b0e3-fa5ad517b557.PNG)
