@@ -45,9 +45,7 @@ In case of any suggestion and query feel free to connect us
  
  
  
- 
- 
- 
+ <h1>About </h1>
 Sephora is a French multinational retailer of famous beauty brand that has captured the hearts of millions of beauty shoppers worldwide. This company is also expanding around the globe and is available in several countries. The brand offers different beauty products from high-end beauty brands and makes them accessible to users even before purchasing.
 
 
@@ -69,73 +67,15 @@ _Or you can directly explore our project through this link_
 
 ### Netlify Link
 https://Sephora.netlify.app
+ WEBSITE CONTENT >
+here the home, login/signup, dashboard, create an Email, begin campaigns, choose templeate,customize
+compaign, campaign preveiw page and track campaign status , sections are the part we have majorly focused to develope.
+ 
+ ----
+ ###Home page
+ ![Capture](https://user-images.githubusercontent.com/95909861/167254331-5fe8b21a-29ec-449d-9851-b9a9e507cad6.PNG)
 
-
----
-
-### Team Members
-
-- **[Sai Narasimha](https://github.com/Sai-Narasimha)**
-- **[Hemant Suryawanshi](https://github.com/hemant-suryawanshi)**
-- **[Ritu](https://github.com/Ritu1011)**
-- **[Viraj Gupta](https://github.com/rkvirajgupta)**
-- **[Tanya](https://github.com/TanyaIndian)**
-- **[Khushi Gupta](https://github.com/khushi89012)**
-
-
----
-
----
-
-### Tech Stack Used : -
-
-- #### Languages
-  - `HTML`
-  - `CSS`
-  - `JavaScript ES6`
-- #### Framework
-  - `React.Js`
-  - `Node.Js`
-- #### Libraries
-  - `Express`
-  - `mongoose`
-- #### Database
-  - `MongoDB`
-
----
-
-### _Following are the Screenshots for the reference_
-
-- **Landing Page**
-  ![Landing Page](https://miro.medium.com/max/1400/1*UB-C6C9NNV3udcmNFoyOBg.png)
-
-- **Product Page**
-
-  ![Product Page](https://miro.medium.com/max/940/1*5HafmzQ-Z4ySizSHgx_TUQ.png)
-
-- **Product-details Page**
-
-  ![Product-details Page](https://miro.medium.com/max/1400/1*vDtXNb8Ylet-4ikgvHtknQ.png)
-
-- **Cart-Page**
-
-  ![Cart-Page](https://miro.medium.com/max/1400/1*ctMmSn6msr_SwWDU8YTKig.png)
-
-- **Checkout Page**
-
-  ![Checkout Page](https://miro.medium.com/max/1400/1*pQiczrwkoRosV5QUJEr5Vg.png)
-  
-
-- **Sign-In Page**
-
-  ![Sign-In Page](https://miro.medium.com/max/1400/1*A2cMBrWWvcafYev5_zC3DA.png)
-
-- **Payment Page**
-
-  ![Payment Page](https://miro.medium.com/max/1400/1*aBg4DT5IG4JAFJ68pwQGqA.png)
-
-
----
+ 
 
 ### About Project
 
