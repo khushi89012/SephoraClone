@@ -9,7 +9,18 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 > > ⌘ **npm start**
 
-> After that go to your browser and type `http://localhost:5000/homepage` and you are ready to run and explore our project.
+> After that 
+
+> _go to the "frontend" folder and run the following command in terminal_
+ 
+> > ⌘ **npm start**
+
+>   and than you can explore our project.
+
+_Or you can directly explore our project through this link_
+
+### Netlify Link
+https://Sephora.netlify.app
 
 
 ---
