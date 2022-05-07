@@ -4,6 +4,9 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdFavoriteBorder } from "react-icons/md";
 import "./MainBody.css";
 import { Link } from "react-router-dom";
+import { Header } from "../Header/Header";
+import { Navbar } from "../Navbar/Navbar";
+import { Footer } from "../Footer/Footer";
 
 export const MackupProduct = () => {
   const [product, setproduct] = useState([]);
@@ -15,7 +18,7 @@ export const MackupProduct = () => {
   }, []);
 
   const getdata = async () => {
-    fetch(`http://localhost:4700/mackupp`)
+    fetch(`https://sephoramasaiapi.herokuapp.com/mackupp`)
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
@@ -87,6 +90,8 @@ export const MackupProduct = () => {
 
   return (
     <>
+    <Header/>
+    <Navbar/>
       <div id="sortdiv">
         <p>SORT:</p>
         <select
@@ -245,6 +250,7 @@ export const MackupProduct = () => {
             ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

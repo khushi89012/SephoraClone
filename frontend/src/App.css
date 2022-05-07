@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  align-items: center;
+}
+*{
+  font-family: "Avenir Next";
 }
 
 .App-logo {
