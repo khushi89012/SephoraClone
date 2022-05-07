@@ -1,5 +1,24 @@
-### Sephora Clone
+###  lookalike of website <span>Sephora Clone<span>
 
+ <h2>Welcome to this repo</h2>
+ We a team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu Bankey ,Sai Narishma , Tanya Shrivastava,) has completed the task in 5 days and Given our best efforts to Construct this project.
+In case of any suggestion and query feel free to connect us
+ 
+ 
+ <h1>TOOLS AND TECHNOLOGY USED ></h1>
+ <li>HTML (through React)</li>
+     <li>css</li>
+<li>javascript</li>
+<li>React</li>
+<li>font Awesom icons</li>
+<li>bootstrap (for styling flash mesage)</li>
+<li>Nodejs</li>
+<li>ExpressJs</li>
+<li>mongodb atlas (for database)</li>
+ 
+ 
+ 
+ 
 Sephora is a French multinational retailer of famous beauty brand that has captured the hearts of millions of beauty shoppers worldwide. This company is also expanding around the globe and is available in several countries. The brand offers different beauty products from high-end beauty brands and makes them accessible to users even before purchasing.
 
 
