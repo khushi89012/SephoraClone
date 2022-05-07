@@ -115,7 +115,7 @@ home -> login/signup -> dashboard -> get started to products -> create user Id->
  <h1>TEAM MEMBERS AND MESSAGE></h1>
 we really enjoyed this whole part of developing and haad a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
 
-Hemant Suryawanshi
+ <li>Hemant Suryawanshi</li>
  <li>Khushi Gupta</li>
  <li>Ritu Bankey</li>
  <li>Viraj Gupta</li>
