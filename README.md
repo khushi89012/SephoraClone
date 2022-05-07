@@ -1,7 +1,7 @@
 ###  lookalike of website <span>Sephora Clone<span>
 
  <h2>Welcome to this repo</h2>
- We are team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu Bankey ,Sai Narishma , Viraj Gupta , Tanya Shrivastava) has completed the task in 5 days and Given our best efforts to Construct this project.
+ We are team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu, Sai Narasimha, Viraj Gupta, Tanya) has completed the task in 5 days and Given our best efforts to Construct this project.
 In case of any suggestion and query feel free to connect us
  
  
@@ -13,32 +13,22 @@ In case of any suggestion and query feel free to connect us
 <li>font Awesom icons</li>
 <li>bootstrap (for styling flash mesage)</li>
 <li>Nodejs</li>
-<li>ExpressJs</li>
 <li>mongodb atlas (for database)</li>
-<li>axios : 0.21.4</li>
 <li>concurrently : 6.3.0</li>
 <li>cors : 2.8.5</li>
-<li>dotenv : 10.0.0</li>
  <li>React</li>
  <li>Node.js</li>
 
  
  
   <h1>Node packages and libraries ></h1>
-  <li>@fortawesome/fontawesome-svg-core: 1.2.36</li>
- <li>@fortawesome/free-solid-svg-icons: 5.15.4</li>
-<li>@fortawesome/react-fontawesome: 0.1.15</li>  
   <li>styled-components : 5.3.1</li>
-<li> axios : 0.21.4</li>
- <li>concurrently : 6.3.0</li>
  <li>cors : 2.8.5</li>
-<li>dotenv : 10.0.0</li>
  <li>express : 4.17.1</li>
  <li>mongoose : 6.0.8</li>
 <li>nodemon : 2.0.13</li>
  <li>react : 17.0.2</li>
  <li>react-dom : 17.0.2</li>
- <li>react-dropzone : 11.4.2</li>
  <li>react-router-dom : 5.3.0</li>
  <li>react-scripts : 4.0.0</li>
  <li>styled-components : 5.3.1</li>
@@ -66,29 +56,42 @@ _To start with the Project run the following command in terminal in "backend" fo
 _Or you can directly explore our project through this link_
 
 ### Netlify Link
+ 
 https://Sephora.netlify.app
  
- <h1>WEBSITE CONTENT ></h1>
-here the home, login/signup, dashboard, create an Email, begin campaigns, choose templeate,customize
-compaign, campaign preveiw page and track campaign status , sections are the part we have majorly focused to develope.
  
- ----
- <h3>Home page</h3>
-![Capture](https://user-images.githubusercontent.com/95909861/167255571-88e88ae8-393b-4a6c-ae3c-fda48f018cbd.PNG)
+ ### _Following are the Screenshots for the reference_
+
+- **Landing Page**
+  ![Landing Page](https://miro.medium.com/max/1400/1*UB-C6C9NNV3udcmNFoyOBg.png)
+
+- **Product Page**
+
+  ![Product Page](https://miro.medium.com/max/940/1*5HafmzQ-Z4ySizSHgx_TUQ.png)
+
+- **Product-details Page**
+
+  ![Product-details Page](https://miro.medium.com/max/1400/1*vDtXNb8Ylet-4ikgvHtknQ.png)
+
+- **Cart-Page**
+
+  ![Cart-Page](https://miro.medium.com/max/1400/1*ctMmSn6msr_SwWDU8YTKig.png)
+
+- **Checkout Page**
+
+  ![Checkout Page](https://miro.medium.com/max/1400/1*pQiczrwkoRosV5QUJEr5Vg.png)
+  
+
+- **Sign-In Page**
+
+  ![Sign-In Page](https://miro.medium.com/max/1400/1*A2cMBrWWvcafYev5_zC3DA.png)
+
+- **Payment Page**
+
+  ![Payment Page](https://miro.medium.com/max/1400/1*aBg4DT5IG4JAFJ68pwQGqA.png)
 
 
-
- 
- <h3>Login page</h3>
- ![Capture](https://user-images.githubusercontent.com/95909861/167254484-c035146b-691d-4c67-b0e3-fa5ad517b557.PNG)
- 
-  <h3>Product page</h3>
- ![Capture](https://user-images.githubusercontent.com/95909861/167254552-c32a24dc-61ce-4139-9f4e-0ec76c3c2d21.PNG)
- 
- <h3>Add to bag</h3>
- ![Capture](https://user-images.githubusercontent.com/95909861/167254827-8636c39a-1d33-4786-b589-882aca93ead5.PNG)
- 
- -------
+---
 
 ### About Project
 
@@ -105,21 +108,28 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 
 ### Netlify Link
 
-Sephora.netlify.app
+https://Sephora.netlify.app
  ------
  <h1>WEBSITE USER FLOW ></h1>
  ----
 the user flow that we tried to maintain is,
 
-home -> login/signup -> dashboard -> get started to products -> create user Id-> Enter email details -> choose products -> Product detail page-> -> Products Check out page -> track status 
+home -> login/signup -> dashboard -> get started to products -> create user Id-> Enter email details -> choose products -> Product detail page-> -> Products Check out page ->payment status -> order placed -> track status.
  
 ----
  <h1>TEAM MEMBERS AND MESSAGE></h1>
-we really enjoyed this whole part of developing and haad a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
+we really enjoyed this whole part of developing and had a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
 
- <li>Hemant Suryawanshi</li>
- <li>Khushi Gupta</li>
- <li>Ritu Bankey</li>
- <li>Viraj Gupta</li>
- <li> Sai Narishma </li>
- <li> Tanya Shrivastava</li>
+### Team Members
+
+- **[Sai Narasimha](https://github.com/Sai-Narasimha)**
+- **[Hemant Suryawanshi](https://github.com/hemant-suryawanshi)**
+- **[Ritu](https://github.com/Ritu1011)**
+- **[Viraj Gupta](https://github.com/rkvirajgupta)**
+- **[Tanya](https://github.com/TanyaIndian)**
+- **[Khushi Gupta](https://github.com/khushi89012)**
+
+
+---
+
+---
