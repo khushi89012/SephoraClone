@@ -1,7 +1,7 @@
 ###  lookalike of website <span>Sephora Clone<span>
 
  <h2>Welcome to this repo</h2>
- We a team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu Bankey ,Sai Narishma , Tanya Shrivastava,) has completed the task in 5 days and Given our best efforts to Construct this project.
+ We are team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu Bankey ,Sai Narishma , Viraj Gupta , Tanya Shrivastava) has completed the task in 5 days and Given our best efforts to Construct this project.
 In case of any suggestion and query feel free to connect us
  
  
@@ -103,3 +103,19 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 ### Netlify Link
 
 Sephora.netlify.app
+ ------
+ <h1>WEBSITE USER FLOW ></h1>
+the user flow that we tried to maintain is,
+
+home -> login/signup -> dashboard -> get started to products -> create user Id-> Enter email details -> choose products -> Product detail page-> -> Products Check out page -> track status 
+ 
+----
+ <h1>TEAM MEMBERS AND MESSAGE></h1>
+we really enjoyed this whole part of developing and haad a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
+
+Hemant Suryawanshi
+ Khushi Gupta
+ Ritu Bankey 
+ Viraj Gupta
+ Sai Narishma 
+ Tanya Shrivastava
