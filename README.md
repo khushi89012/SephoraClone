@@ -67,15 +67,25 @@ _Or you can directly explore our project through this link_
 
 ### Netlify Link
 https://Sephora.netlify.app
- WEBSITE CONTENT >
+ 
+ <h1>WEBSITE CONTENT ></h1>
 here the home, login/signup, dashboard, create an Email, begin campaigns, choose templeate,customize
 compaign, campaign preveiw page and track campaign status , sections are the part we have majorly focused to develope.
  
  ----
- ###Home page
+ <h3>Home page</h3>
  ![Capture](https://user-images.githubusercontent.com/95909861/167254331-5fe8b21a-29ec-449d-9851-b9a9e507cad6.PNG)
-
  
+ <h3>Login page</h3>
+ ![Capture](https://user-images.githubusercontent.com/95909861/167254484-c035146b-691d-4c67-b0e3-fa5ad517b557.PNG)
+ 
+  <h3>Product page</h3>
+ ![Capture](https://user-images.githubusercontent.com/95909861/167254552-c32a24dc-61ce-4139-9f4e-0ec76c3c2d21.PNG)
+ 
+ <h3>Add to bag</h3>
+ ![Capture](https://user-images.githubusercontent.com/95909861/167254827-8636c39a-1d33-4786-b589-882aca93ead5.PNG)
+ 
+ -------
 
 ### About Project
 
