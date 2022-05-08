@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
@@ -27,3 +28,18 @@ function App() {
 }
 
 export default App;
+=======
+
+import './App.css';
+import { Product } from './Componants/Product-Page/MainBody';
+
+function App() {
+  return (
+    <div className="App">
+      <Product/>
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> 711571dcf98ba2077625e06ef0c62b897b7ab3af
