@@ -4,6 +4,9 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdFavoriteBorder } from "react-icons/md";
 import "./MainBody.css";
 import { Link } from "react-router-dom";
+import { Header } from "../Header/Header";
+import { Navbar } from "../Navbar/Navbar";
+import { Footer } from "../Footer/Footer";
 
 export const HairProduct = () => {
   const [product, setproduct] = useState([]);
@@ -15,7 +18,7 @@ export const HairProduct = () => {
   }, []);
 
   const getdata = async () => {
-    fetch(`http://localhost:4700/hair`)
+    fetch(`https://sephoramasaiapi.herokuapp.com/hair`)
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
@@ -87,6 +90,8 @@ export const HairProduct = () => {
 
   return (
     <>
+    <Header/>
+    <Navbar/>
       <div id="sortdiv">
         <p>SORT:</p>
         <select
@@ -248,6 +253,7 @@ export const HairProduct = () => {
             ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -6,6 +6,10 @@ import { GiShare } from "react-icons/gi";
 import { Carousel } from "react-carousel-minimal";
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
+import { Header } from "../Header/Header";
+import { Navbar } from "../Navbar/Navbar";
+import { Footer } from "../Footer/Footer";
+import { Slider3 } from "../Home/Slider3";
 
 export const ProductDetails = () => {
   const details = JSON.parse(localStorage.getItem("hemant")) || [];
@@ -28,6 +32,8 @@ export const ProductDetails = () => {
 
   return (
     <>
+    <Header/>
+    <Navbar/>
       <div id="pddiv1">
         SEPHORA / Hugo Boss / Women / Beauty /{" "}
         <span id="pdspan">
@@ -58,7 +64,7 @@ export const ProductDetails = () => {
           <div id="car2">
             <Carousel
               data={data}
-              time={3500}
+              time={1000}
               width="600px"
               height="500px"
               // captionStyle={captionStyle}
@@ -163,6 +169,8 @@ export const ProductDetails = () => {
           ))}
         </div>
       </div>
+      <Slider3/>
+      <Footer/>
     </>
   );
 };

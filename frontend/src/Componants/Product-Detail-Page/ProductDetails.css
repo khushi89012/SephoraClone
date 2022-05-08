@@ -57,6 +57,7 @@
   width: 35%;
   /* border:1px solid red; */
   height: 1000px;
+  text-align: left;
 }
 #pddiv1 {
   font-weight: lighter;
@@ -165,17 +166,19 @@
   margin-top: 10px;
 }
 #miandiver5 > #zqp1 {
-  width: 22px;
+  width: 50px;
+  height: 50px;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 50%;
   border: 2px solid rgb(255, 51, 153);
   color: rgb(255, 51, 153);
   padding: 10px;
 }
 #miandiver5 > #zqp3 {
-  width: 23px;
+  width: 50px;
+  height: 50px;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 50%;
   border: 2px solid rgb(43, 162, 228);
   color: rgb(43, 162, 228);
   padding: 10px;
