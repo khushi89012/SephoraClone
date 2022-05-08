@@ -57,7 +57,7 @@ _Or you can directly explore our project through this link_
 
 ### Netlify Link
  
-https://Sephora.netlify.app
+https://shephora.netlify.app/
  
  
  ### _Following are the Screenshots for the reference_
@@ -108,7 +108,7 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 
 ### Netlify Link
 
-https://Sephora.netlify.app
+https://shephora.netlify.app/
  ------
  <h1>WEBSITE USER FLOW ></h1>
  ----
