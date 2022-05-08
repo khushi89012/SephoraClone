@@ -122,12 +122,13 @@ we really enjoyed this whole part of developing and had a learing experience and
 
 ### Team Members
 
-- **[Sai Narasimha](https://github.com/Sai-Narasimha)**
 - **[Hemant Suryawanshi](https://github.com/hemant-suryawanshi)**
+ - **[Khushi Gupta](https://github.com/khushi89012)**
 - **[Ritu](https://github.com/Ritu1011)**
+- **[Sai Narasimha](https://github.com/Sai-Narasimha)**
 - **[Viraj Gupta](https://github.com/rkvirajgupta)**
 - **[Tanya](https://github.com/TanyaIndian)**
-- **[Khushi Gupta](https://github.com/khushi89012)**
+
 
 
 ---
