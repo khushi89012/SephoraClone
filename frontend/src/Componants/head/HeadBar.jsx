@@ -8,7 +8,6 @@ import styles from "./Head.css";
 import {Option} from "./optStyled"
 export const HeadBar = () => {
   const [toggle, setToggle] = useState(true);
-  // set user Name here
   const z = JSON.parse(localStorage.getItem("user"))
   var userName;
   if(z==null){
@@ -17,12 +16,9 @@ export const HeadBar = () => {
   else{
     userName = z
   }
-  
   const handleToggle = () => {
     setToggle(false);
   };
-
-// console.log(address)
   return (
     <div className="head_wrapper">
       <div className="co_head">

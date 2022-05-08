@@ -54,6 +54,7 @@ export const Login = () => {
           width: "30%",
           height: "550px",
           margin: "auto",
+          marginTop:"20px"
         }}
       >
         <h1>Login </h1>

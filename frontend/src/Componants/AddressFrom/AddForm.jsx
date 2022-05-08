@@ -37,7 +37,7 @@ export const AddForm = ({setShowForm}) => {
     return (
       <div className="form_wrapper">
         <div className="addForm">
-          <h2 style={{marginTop:"5px"}}>Address Page</h2>
+          <h2>Address Page</h2>
           <form className="grid" onSubmit={handleSubmit} autoComplete= "off">
             <input
               className="a"
