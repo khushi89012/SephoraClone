@@ -1,17 +1,22 @@
 /* eslint-disable no-unused-vars */
 //head of the checkout page;
 import React from 'react'
-import {UserIcon,HeartIcon,CubeIcon,LogoutIcon} from "@heroicons/react/outline"
+import {UserIcon,HeartIcon,CubeIcon,LogoutIcon, ZoomOutIcon} from "@heroicons/react/outline"
 import {useEffect, useState } from "react";
 import styled from "styled-components";
 import styles from "./Head.css";
 import {Option} from "./optStyled"
 export const HeadBar = () => {
   const [toggle, setToggle] = useState(true);
-
   // set user Name here
   const z = JSON.parse(localStorage.getItem("user"))
-  const userName = z.givenName
+  var userName;
+  if(z==null){
+    userName = "Floating Heart"
+  }
+  else{
+    userName = z
+  }
   
   const handleToggle = () => {
     setToggle(false);

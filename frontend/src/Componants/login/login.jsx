@@ -8,22 +8,16 @@ import { Link } from "react-router-dom";
 
 export const Login = () => {
   const [user, setUser] = useState([]);
-  const [form, setForm] = useState({
-    email: "",
-    password: "",
-    name: "",
-  });
+  const [form123, setForm123] = useState("")
 
   const handleChange = (e) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
-    });
+  
+    localStorage.setItem("user", JSON.stringify(e.target.value));
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+  
 
-    localStorage.setItem("user", JSON.stringify(form));
   };
 
   const navigate = useNavigate();
@@ -31,7 +25,7 @@ export const Login = () => {
   const responseSuccessGoogle = (response) => {
     console.log(response.profileObj, response.tokenId);
     setUser(response.profileObj, response.tokenId);
-    localStorage.setItem("user", JSON.stringify(response.profileObj));
+    // localStorage.setItem("user", JSON.stringify(response.profileObj));
     navigate("/");
   };
 
@@ -45,7 +39,7 @@ export const Login = () => {
   const responseFacebook = (response) => {
     console.log(response.name, response.email, response.picture.data.url);
     setUser(response.name, response.email, response.picture.data.url);
-    localStorage.setItem("user", JSON.stringify(response.name));
+    // localStorage.setItem("user", JSON.stringify(response.name));
     navigate("/");
   };
   useEffect(() => {
@@ -70,7 +64,7 @@ export const Login = () => {
           <input
             type="email"
             name="email"
-            onChange={handleChange}
+           
             placeholder="Email or Phone Number"
             style={{ padding: "10px", margin: "10px", width: "260px" }}
           />
@@ -89,8 +83,8 @@ export const Login = () => {
             placeholder="Enter the password"
             type="password"
             name="password"
-            value={form.password}
-            onChange={handleChange}
+          
+           
             style={{ padding: "10px", margin: "10px", width: "260px" }}
           />
           <br />

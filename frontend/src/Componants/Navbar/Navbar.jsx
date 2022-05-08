@@ -35,7 +35,7 @@ const handleName=  ()=>{
 						<li><RiContactsLine /></li>
 						<li>{z == null ? "Login" : ""}</li>
 						</Link>
-						<div >{z == null ? "" :z.givenName} </div>
+						<div >{z == null ? "" :z} </div>
 						{/* <div>{z==null ? "":<button onClick={handleName}>Logout</button>}</div> */}
 					</div>
 				</div>
