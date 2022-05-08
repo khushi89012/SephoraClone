@@ -1,0 +1,30 @@
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+background-color: black;
+width: 50px;
+color: black;
+}
+.carousel-indicators>button{
+    
+   margin-bottom: -500px;
+   height: 200px;
+ }
+ #divimage{
+     display: flex;
+   width: 85%;
+     justify-content: space-around;
+     margin: auto;
+     margin-top: 2%;
+     
+ }
+ #div2Image{
+    display: flex;
+    width: 82%;
+      justify-content: space-between;
+      margin: auto;
+      margin-top: 2%;
+     
+ }
+
+ 
