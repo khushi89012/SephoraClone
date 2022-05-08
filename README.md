@@ -1,7 +1,7 @@
 ###  lookalike of website <span>Sephora Clone<span>
 
  <h2>Welcome to this repo</h2>
- We are team of 6 members (Hemant Suryawanshi, Khushi Gupta, Ritu, Sai Narasimha, Viraj Gupta, Tanya) has completed the task in 5 days and Given our best efforts to Construct this project.
+ We are team of 6 members (  Sai Narasimha,Hemant Suryawanshi, Khushi Gupta, Ritu, Viraj Gupta, Tanya) has completed the task in 5 days and Given our best efforts to Construct this project.
 In case of any suggestion and query feel free to connect us
  
  
