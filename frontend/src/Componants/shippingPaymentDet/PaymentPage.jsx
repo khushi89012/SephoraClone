@@ -9,9 +9,9 @@ import "./pricingTable.css";
 export const Payment = () => {
   const [cart, setCart] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
-  const [showForm,setShowForm] = useState(false)
+  const [showForm, setShowForm] = useState(false);
   //for pay on delivery
-  const [show,setShow] = useState(false)
+  const [show, setShow] = useState(false);
   // parsing local storage for cartItems
   useEffect(() => {
     const cartItems = JSON.parse(localStorage.getItem("sai"));
@@ -23,23 +23,23 @@ export const Payment = () => {
     console.log(total);
     setCartTotal(total);
   }, []);
-// for address from pop-up
-  useEffect(()=>{
-      const add = JSON.parse(localStorage.getItem("sephoraAddress"));
-      if(add) setShowForm(false)
-      else setShowForm(true)
-  },[])
+  // for address from pop-up
+  useEffect(() => {
+    const add = JSON.parse(localStorage.getItem("sephoraAddress"));
+    if (add) setShowForm(false);
+    else setShowForm(true);
+  }, []);
 
   // handle for pay on delivery;
-  const handleShow = ()=>{
-    console.log(show)
-    show? setShow(false):setShow(true)
-  }
- 
-  //handle for alert 
-  const handleAlert=()=>{
-    alert("Order Placed")
-  }
+  const handleShow = () => {
+    console.log(show);
+    show ? setShow(false) : setShow(true);
+  };
+
+  //handle for alert
+  const handleAlert = () => {
+    alert("Order Placed");
+  };
 
   return (
     <>
@@ -50,7 +50,7 @@ export const Payment = () => {
               <strong>TOTAL PAYABLE AMOUNT</strong>
             </span>
             <span>
-              <strong>Rs. {Math.round((cartTotal * 86) / 100 )}</strong>
+              <strong>Rs. {Math.round((cartTotal * 86) / 100)}</strong>
             </span>
           </div>
           <p>
@@ -59,54 +59,58 @@ export const Payment = () => {
           <hr />
           <div className="payment_methods">
             <div>
-              <input type="radio"  className = "radio" onClick = {handleShow}/> <label>Credit/ Debit Card</label>
-              <div className= {show?"display":"none"}>
-                
-                  {/* <form action="" preventDefault = "true"> */}
-                  <div className = "form">
-                    <input type="text" placeholder="Enter Card Number" className = "i"/> 
-                    <input type="text" placeholder="Enter Name" className = "j"/> 
-                    <input type= "text" placeholder="Enter CVV" className = "k"/> 
-                    <input type = "text" placeholder="MM" className = "l"/>
-                    <input type="text" placeholder="YYYY" className = "m"/>
+              <input type="radio" className="radio" onClick={handleShow} />{" "}
+              <label>Credit/ Debit Card</label>
+              <div className={show ? "display" : "none"}>
+                {/* <form action="" preventDefault = "true"> */}
+                <div className="form">
+                  <input
+                    type="text"
+                    placeholder="Enter Card Number"
+                    className="i"
+                  />
+                  <input type="text" placeholder="Enter Name" className="j" />
+                  <input type="text" placeholder="Enter CVV" className="k" />
+                  <input type="text" placeholder="MM" className="l" />
+                  <input type="text" placeholder="YYYY" className="m" />
                 </div>
-                  {/* </form> */}
+                {/* </form> */}
               </div>
             </div>
             <div>
-              <input type="radio" className = "radio"/> <label>Net Banking</label>
+              <input type="radio" className="radio" />{" "}
+              <label>Net Banking</label>
             </div>
             <div>
-              <input type="radio" className = "radio" /> <label>Paytm Wallet</label>
+              <input type="radio" className="radio" />{" "}
+              <label>Paytm Wallet</label>
             </div>
             <div>
-              <input type="radio" className = "radio"/> <label>Other Wallets</label>
+              <input type="radio" className="radio" />{" "}
+              <label>Other Wallets</label>
             </div>
             <div>
-              <input type="radio" className = "radio"/> <label>UPI</label>
+              <input type="radio" className="radio" /> <label>UPI</label>
             </div>
             <div>
-              <input type="radio" className = "radio"/>{" "}
+              <input type="radio" className="radio" />{" "}
               <label>
                 Pay on Delivery (UPI,Wallet,Card and Cash){" "}
                 <span>(additional charge Rs. 40)</span>
               </label>
-              
             </div>
           </div>
         </div>
         <div className="price_det">
           <PricingTable total={cartTotal} />
           <div className="continue" onClick={handleAlert}>
-          <Link to={`/home`}>
-            <span>PLACE ORDER</span>
+            <Link to={`/home`}>
+              <span style = {{color : "white"}}>PLACE ORDER</span>
             </Link>
           </div>
         </div>
-     
       </div>
-     {showForm ? <AddForm setShowForm = {setShowForm}/> : null}
-      
+      {showForm ? <AddForm setShowForm={setShowForm} /> : null}
     </>
   );
 };

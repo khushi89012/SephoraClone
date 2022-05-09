@@ -207,6 +207,7 @@ export const MackupProduct = () => {
                     <div id="Scrollup_Button">
                       <button
                         onClick={(event) => {
+                         console.log(e)
                           var cartArr =
                             JSON.parse(localStorage.getItem("sai")) ||
                             [];

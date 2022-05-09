@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import { PricingTable } from "./pricingTable"
 import './shipping.css'
 import "./pricingTable.css"
-export const Shipping = () =>{
+export const Shipping = ({setCurrState}) =>{
     const [shippingAdd, setShippingAdd] = useState([])
     const [cartTotal,setCartTotal] = useState(0) 
     const [showAdd,setShowAdd] = useState(true)
@@ -14,38 +14,51 @@ export const Shipping = () =>{
     //setting data to localstorage
    
 
-    //parsing data from localstorage
-    const [cart, setCart] = useState([])
-    useEffect(()=>{
+  
+
+    //price updation function(updated)
+    const priceUpdate = ()=>{
         const cartItems = JSON.parse(localStorage.getItem("sai")) 
         setCart(cartItems)
         let total = 0;
         cartItems.forEach(ele=>{
              total += ele.price
         })
-        console.log(total)
         setCartTotal(total)
-        
-    },[])
+        console.log(cartItems)
+    }
 
+      //parsing data from localstorage
+      const [cart, setCart] = useState([])
+      useEffect(()=>{
+         //updated
+         priceUpdate();
+          
+      },[])
 
+      // remove item (updated)
+      const handleRemove = (_id)=>{
+
+        const remainingItems = cart.filter((item)=> item._id !== _id) 
+        setCart(remainingItems)
+        localStorage.setItem("sai",JSON.stringify(remainingItems))
+        priceUpdate()    
+ 
+     }
     const [address,setAddress] = useState({})
     //parsing address data from local storage
     useEffect(()=>{
         let add = JSON.parse(localStorage.getItem("sephoraAddress"))
-        // setAddress(add)
-        // else setAddress()
         if(add){
             setAddress(add)
             setShowAdd(true)
         }
         else {
-            // setAddress(false)
             setShowAdd(false)
         }
 
     },[])
-    console.log(address)
+    // console.log(address)
 
     
     return (
@@ -61,16 +74,19 @@ export const Shipping = () =>{
                     </> : null
 }
                </div>
-           {cart.map((e,i)=>
+               {/* updated */}
+           {cart.map((ele,i)=>
             <div key = {i} className = "product_det">
-                <img className = "image" src = {e.image_url} alt = "product Img"/>
+                <img className = "image" src = {ele.image_url} alt = "product Img"/>
                 <div>
                     <ul style={{listStyle:"none"}}>
-                        <li>{e.brandname}</li>
-                        <li><strong>{e.productName}</strong></li>
-                        <li><span>{e.available}</span></li>
-                        <li><strong>Price - {e.price}/-</strong></li>
+                        <li>{ele.brandname}</li>
+                        <li><strong>{ele.productName}</strong></li>
+                        <li><span>{ele.available}</span></li>
+                        <li><strong>Price - {ele.price}/-</strong></li>
                     </ul>
+                    {/*  updated */}
+                    <button onClick = {()=>handleRemove(ele._id)} id="removebutton">Remove</button>
                 </div>
             </div>
            )}
@@ -83,7 +99,7 @@ export const Shipping = () =>{
                
               <PricingTable total = {cartTotal}/>
        
-               <div className="continue">
+               <div className="continue" onClick={()=>setCurrState("payment")}>
 
                    <span>CONTINUE</span>
                </div>
