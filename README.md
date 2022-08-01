@@ -108,18 +108,8 @@ _Or you can directly explore our project through this link_
 
 ---
 
-### Medium Link
-
-https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031b
-
-------
 
 
-### Netlify Link
-
-https://shephora.netlify.app/
-
- ------
  <h1>WEBSITE USER FLOW ></h1>
  ----
 the user flow that we tried to maintain is,
@@ -143,4 +133,14 @@ we really enjoyed this whole part of developing and had a learing experience and
 
 ---
 
----
+------
+
+### Medium Link
+
+https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031b
+
+### Netlify Link
+
+https://shephora.netlify.app/
+
+ ------
