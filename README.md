@@ -2,7 +2,20 @@
 
  <h2>Welcome to this repo</h2>
  We are team of 6 members (  Sai Narasimha,Hemant Suryawanshi, Khushi Gupta, Ritu, Viraj Gupta, Tanya) has completed the task in 5 days and Given our best efforts to Construct this project.
-In case of any suggestion and query feel free to connect us
+In case of any suggestion and query feel free to connect us.
+
+
+---
+
+### Medium Link
+
+https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031b
+
+### Netlify Link
+ 
+https://shephora.netlify.app/
+
+---
  
  
  <h1>TOOLS AND TECHNOLOGY USED ></h1>
@@ -55,10 +68,6 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 _Or you can directly explore our project through this link_
 
-### Netlify Link
- 
-https://shephora.netlify.app/
- 
  
  ### _Following are the Screenshots for the reference_
 
@@ -109,6 +118,7 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 ### Netlify Link
 
 https://shephora.netlify.app/
+
  ------
  <h1>WEBSITE USER FLOW ></h1>
  ----
