@@ -21,7 +21,6 @@ export const Signup = () => {
   }
   const handleSubmit =(e)=>{
     e.preventDefault()
-    console.log(form)
     localStorage.setItem("user", JSON.stringify(form.Name));
 
     var userList = JSON.parse(localStorage.getItem("allusers")) || [];

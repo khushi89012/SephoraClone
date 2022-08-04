@@ -8,7 +8,6 @@ export const OTP = () => {
   const [user, setUser] = useState([]);
   const [otper,setOtper]=useState("")
   const navigate = useNavigate();
-  console.log(otper)
  const handleformer = ()=>{
     if(otper==12345){
 

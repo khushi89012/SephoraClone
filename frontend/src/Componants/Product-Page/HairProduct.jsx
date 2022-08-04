@@ -22,7 +22,6 @@ export const HairProduct = () => {
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
-        console.log(data);
       });
   };
   const handelSort = (by) => {

@@ -22,7 +22,6 @@ export const MackupProduct = () => {
       .then((d) => d.json())
       .then((data) => {
         setproduct(data);
-        console.log(data);
       });
   };
   const handelSort = (by) => {
@@ -212,7 +211,6 @@ export const MackupProduct = () => {
                         onClick={(event) => {
                           alert('added in cart')
 
-                         console.log(e)
                           var cartArr =
                             JSON.parse(localStorage.getItem("sai")) ||
                             [];

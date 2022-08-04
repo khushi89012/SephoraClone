@@ -21,7 +21,6 @@ export const Payment = () => {
   
   const handlePaymode =(e)=>{
     e.preventDefault()
-    console.log(e.target)
     setPaymode(e.target[0].value)
     setShow1(false)
                 setShow2(false)
@@ -43,7 +42,6 @@ export const Payment = () => {
     cartItems.forEach((ele) => {
       total += ele.price;
     });
-    console.log(total);
     setCartTotal(total);
   }, []);
   // for address from pop-up
@@ -153,15 +151,9 @@ export const Payment = () => {
             <div>
               <label style={{marginLeft:"35px"}}>Paytm Wallet</label>{"  "}
               
-              <span className="hellohover" onClick={()=>{
-                setShow1(false)
-                setShow2(false)
-                setShow3(true)
-                setShow4(false)
-              }} style={{color:"rgb(255,51,153)" ,cursor: "pointer"}}>click me</span>
+              <span className="hellohover"  style={{color:"rgb(255,51,153)" ,cursor: "pointer"}}>click me</span>
               <div className={show3 ? "display" : "none"}>
-                <form className="form" onSubmit={handlePaymode}>
-                <input value={"Paytm Wallet"} type="number" style={{display:"none"}} />
+                <form className="form" >
 
                   <input
                     type="number"
@@ -179,15 +171,9 @@ export const Payment = () => {
             <div>
              <label style={{marginLeft:"35px"}}>UPI</label>{"  "}
              <span className="hellohover"
-              onClick={()=>{
-                setShow1(false)
-                setShow2(false)
-                setShow3(false)
-                setShow4(true)
-              }} style={{color:"rgb(255,51,153)",cursor: "pointer"}}>click me</span>
+               style={{color:"rgb(255,51,153)",cursor: "pointer"}}>click me</span>
              <div className={show4 ? "display" : "none"}>
-                <form className="form" onSubmit={handlePaymode}>
-                <input value={"UPI"} type="number" style={{display:"none"}} />
+                <form className="form" >
 
                   <input
                     type="text"

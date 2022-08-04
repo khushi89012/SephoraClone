@@ -24,7 +24,6 @@ export const AddForm = ({setShowForm}) => {
     const handleSubmit = (e) => {
       e.preventDefault();  
       localStorage.setItem("sephoraAddress", JSON.stringify(formData));
-      console.log(formData)
       setShowForm(false)
     };
     
@@ -33,7 +32,6 @@ export const AddForm = ({setShowForm}) => {
         setAddress(add)
 
     },[])
-    console.log(address)
     return (
       <div className="form_wrapper">
         <div className="addForm">

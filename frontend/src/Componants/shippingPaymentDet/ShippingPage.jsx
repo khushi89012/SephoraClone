@@ -25,7 +25,6 @@ export const Shipping = ({setCurrState}) =>{
              total += ele.price
         })
         setCartTotal(total)
-        console.log(cartItems)
     }
 
       //parsing data from localstorage
