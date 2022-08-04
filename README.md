@@ -13,7 +13,7 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 
 ### Netlify Link
  
-https://shephora.netlify.app/
+https://shephoraindia.netlify.app/
 
 ---
 ---
@@ -142,6 +142,6 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 
 ### Netlify Link
 
-https://shephora.netlify.app/
+https://shephoraindia.netlify.app/
 
  ------

@@ -82,4 +82,11 @@
 .g{
   grid-area: g;
   margin-top:38px;
+  border: none;
+background-color:  rgb(255,51,153);
+color:white;
+font-weight: 600;
+border-radius: 5px;
+padding: 10px 20px;
+
 }

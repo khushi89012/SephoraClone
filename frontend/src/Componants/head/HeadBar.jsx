@@ -6,16 +6,23 @@ import {useEffect, useState } from "react";
 import styled from "styled-components";
 import styles from "./Head.css";
 import {Option} from "./optStyled"
+import { useNavigate } from 'react-router-dom';
 export const HeadBar = () => {
   const [toggle, setToggle] = useState(true);
-  const z = JSON.parse(localStorage.getItem("user"))
-  var userName;
-  if(z==null){
-    userName = "Floating Heart"
+  const [refreser,setRefreser]=useState(false)
+  const userName = JSON.parse(localStorage.getItem("user"))||"Login";
+
+  const navigate = useNavigate()
+
+  const logouter = ()=>{
+    localStorage.removeItem("user");
+    localStorage.removeItem("sephoraAddress")
+    localStorage.removeItem("sai")
+
+    setRefreser(!refreser)
+    navigate("/")
   }
-  else{
-    userName = z
-  }
+  
   const handleToggle = () => {
     setToggle(false);
   };
@@ -41,7 +48,7 @@ export const HeadBar = () => {
             </Option>
             <hr style = {{width:"80%", margin : "auto", marginTop :"8px"}}/>
             <Option>
-             <span><LogoutIcon className="icons" style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Sign Out </span>
+             <span><LogoutIcon className="icons" onClick={()=>logouter()} style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Sign Out </span>
             </Option>
           
           </div>

@@ -26,6 +26,8 @@ export const ProductDetails = () => {
 
   const viraj = JSON.parse(localStorage.getItem("sai")) || [];
   const handleStorage = () => {
+    alert('added in cart')
+
     viraj.push(details[0]);
     localStorage.setItem("sai", JSON.stringify(viraj));
   };

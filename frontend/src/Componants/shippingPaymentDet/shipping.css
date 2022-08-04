@@ -113,10 +113,10 @@
     grid-template-columns: repeat(4,80px);
     grid-template-rows: repeat(4,40px);
     grid-template-areas: 
-    "i i i i"
-    "j j j j"
-    "k . . ."
-    "l m . .";
+    "i i i "
+    "j j j "
+    "k l m "
+    ". n . ";
     grid-gap: 10px;
     /* border : 1px solid blue; */
 }
@@ -134,6 +134,20 @@
 }
  .m{
     grid-area : m
+}
+.n{
+    grid-area : n;
+    background-color: rgb(255,51,153);
+    border:0px;
+    color:white;
+    font-weight: bolder;
+
+}
+.ll{
+    background-color: rgb(255,51,153);
+    border:0px;
+    color:white;
+    font-weight: bolder;
 }
 #removebutton{
     border: 2px solid #e29baf;

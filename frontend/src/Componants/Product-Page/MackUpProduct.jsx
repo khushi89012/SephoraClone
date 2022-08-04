@@ -183,6 +183,9 @@ export const MackupProduct = () => {
             </div>
           </div>
         </div>
+        {product.length==0 ? <h1 style={{color:"grey", marginLeft: "150px"}}>
+         Please Wait ...
+              </h1> :
 
         <div id="productpagecart">
           {product
@@ -207,6 +210,8 @@ export const MackupProduct = () => {
                     <div id="Scrollup_Button">
                       <button
                         onClick={(event) => {
+                          alert('added in cart')
+
                          console.log(e)
                           var cartArr =
                             JSON.parse(localStorage.getItem("sai")) ||
@@ -222,17 +227,17 @@ export const MackupProduct = () => {
                         <span id="textCSS">ADD TO CART</span>
                       </button>
                       <button
-                        onClick={(event) => {
-                          var wishlistArr =
-                            JSON.parse(
-                              localStorage.getItem("sephorawishlist")
-                            ) || [];
-                          wishlistArr.push(e);
-                          localStorage.setItem(
-                            "sephorawishlist",
-                            JSON.stringify(wishlistArr)
-                          );
-                        }}
+                        // onClick={(event) => {
+                        //   var wishlistArr =
+                        //     JSON.parse(
+                        //       localStorage.getItem("sephorawishlist")
+                        //     ) || [];
+                        //   wishlistArr.push(e);
+                        //   localStorage.setItem(
+                        //     "sephorawishlist",
+                        //     JSON.stringify(wishlistArr)
+                        //   );
+                        // }}
                       >
                         <MdFavoriteBorder id="symbollcss"></MdFavoriteBorder>
                         <span id="textCSS">FAVOURITE</span>
@@ -249,7 +254,7 @@ export const MackupProduct = () => {
                 </ProductCard>
               </div>
             ))}
-        </div>
+        </div> }
       </div>
       <Footer/>
     </>

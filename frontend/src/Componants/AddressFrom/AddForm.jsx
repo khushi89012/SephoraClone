@@ -38,8 +38,9 @@ export const AddForm = ({setShowForm}) => {
       <div className="form_wrapper">
         <div className="addForm">
           <h2>Address Page</h2>
-          <form className="grid" onSubmit={handleSubmit} autoComplete= "off">
+          <form className="grid" onSubmit={handleSubmit}>
             <input
+              required
               className="a"
               name="name"
               type="text"
@@ -48,6 +49,7 @@ export const AddForm = ({setShowForm}) => {
               onChange={handleChange}
             />
             <input
+            required
               className="b"
               name="address"
               type="text"
@@ -56,30 +58,38 @@ export const AddForm = ({setShowForm}) => {
               onChange={handleChange}
             />
             <input
+            required
               className="c"
+              limit="10"
               name="number"
-              type="text"
+              type="number"
               placeholder="Phone Number*"
               value={formData.number}
               onChange={handleChange}
             />
             <input
+            required
               className="d"
               name="altNumber"
-              type="text"
+              type="number"
+              limit="10"
+
               placeholder="Alternate Number"
               value={formData.altNumber}
               onChange={handleChange}
             />
             <input
+            required
+            limit="6"
               className="e"
               name="pincode"
-              type="text"
+              type="number"
               placeholder="Pincode*"
               value={formData.pincode}
               onChange={handleChange}
             />
             <input
+            required
               className="f"
               name="landmark"
               type="text"
@@ -88,10 +98,10 @@ export const AddForm = ({setShowForm}) => {
               onChange={handleChange}
             />
             <input
+            
               className="g"
               type="submit"
               id="submit"
-              onClick={handleSubmit}
             />
           </form>
         </div>

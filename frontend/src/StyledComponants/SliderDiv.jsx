@@ -3,7 +3,7 @@ const SliderDiv = styled.div`
 display: flex;
 flex-direction: column;
 
-margin-rigth:20%;
+margin-right:20%;
 
 align-items: center;
 justify-content:space-araound;

@@ -1,18 +1,31 @@
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const z = JSON.parse(localStorage.getItem("user"));
-  const handleName = () => {
-    //  localStorage.clear();
+  var navigate= useNavigate()
+  const z = JSON.parse(localStorage.getItem("user"))||"Login";
+  const [refreser,setRefreser]=useState(false)
+  const handleCart = ()=>{
+
+     if(z=="Login"){
+      alert("you are not logged in please login")
+      navigate('/login')
+      return
+     }
+    navigate('/checkoutpage')
+  }
+  const logouter = ()=>{
     localStorage.removeItem("user");
-    //  console.log('HI VIRAJ')
-    window.location.reload();
-  };
+    localStorage.removeItem("sephoraAddress")
+    localStorage.removeItem("sai")
+
+    setRefreser(!refreser)
+  }
+  
   return (
     <>
       <div className="NavbarContainer-1">
@@ -29,7 +42,9 @@ export const Navbar = () => {
             />
           </div>
           <div className="Navbar-14">
+          <Link className="Navbar-15" to={`/`}>
             <div className="Navbar-15">SEPHORA</div>
+            </Link>
           </div>
           <div className="Navbar-16">
             <div className="Navbar-17">
@@ -37,22 +52,24 @@ export const Navbar = () => {
                 <FiHeart />
               </li>
               <li>|</li>
-              <Link to={`/checkoutpage`}>
-                <li>
+                <li className="hellohover" onClick={()=>handleCart()} style={{cursor: "pointer"}}>
                   <HiOutlineShoppingBag />
                 </li>
-              </Link>
               <li>|</li>
+              {z=="Login" ?
               <Link to={`/login`}>
-                <span id="adjustment1">
-                  <li>
-                    <RiContactsLine />
-                  </li>
-                  <li style={{marginLeft:"5px"}}>{z == null ? "Login" : ""}</li>
-                </span>
-              </Link>
-              <div>{z == null ? "" : z} </div>
-              {/* <div>{z==null ? "":<button onClick={handleName}>Logout</button>}</div> */}
+              <span id="adjustment1">
+                <li  className="hellohover">
+                  <RiContactsLine />
+                </li>
+              </span>
+            </Link>:null}
+              
+              <div className="hellohover" style={z!=="Login" ? { color:"rgb(255,51,153)",cursor: "pointer"}:{color:"black"}}> 
+              {z} 
+              </div>
+              {z!=="Login" ? <p className="hellohover" onClick={()=>logouter()} style={{color:"rgb(255,51,153)",cursor: "pointer"}}>Logout</p>:null}
+              
             </div>
           </div>
         </div>
@@ -62,14 +79,19 @@ export const Navbar = () => {
           <ul>
             <li className="nav-hover ">
               {" "}
+              <Link to={`/mackupproduct`}>
               <a className="heading1" href="">
                 SALE
               </a>
+              </Link>
             </li>
             <li className="nav-hover">
+            <Link to={`/mackupproduct`}>
+
               <a href="" className="heading">
                 MAKEUP
               </a>
+              </Link>
               <div className="hover ">
                 <div className="hover--navbar">
                   <div>
@@ -77,25 +99,25 @@ export const Navbar = () => {
                       <li className="first">
                         <a href="">FACE</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Foundation</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">BB & CC Cream</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Concealer</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Face Primer</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Highlighter</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Makeup Palette</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Face Brushes</a>
                       </li>
                     </ul>
@@ -135,7 +157,6 @@ export const Navbar = () => {
                   <div>
                     {/* <h5>LIP</h5> */}
                     <ul>
-                      <Link to={`/mackupproduct`}>
                         <li className="first">
                           <a href="">LIP</a>
                         </li>
@@ -157,7 +178,6 @@ export const Navbar = () => {
                         <li>
                           <a href="">Lip Brushes </a>
                         </li>
-                      </Link>
                     </ul>
                   </div>
                   <div>
@@ -207,9 +227,11 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
+            <Link to={`/hairproduct`}>
               <a className="heading" href="">
                 SKINCARE
               </a>
+              </Link>
               <div className="hover ">
                 <div className="hover--navbar">
                   <div>
@@ -218,25 +240,25 @@ export const Navbar = () => {
                       <li className="first">
                         <a href="">FACE</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Foundation</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">BB & CC Cream</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Concealer</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Face Primer</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Highlighter</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Makeup Palette</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="">Face Brushes</a>
                       </li>
                     </ul>
@@ -275,7 +297,6 @@ export const Navbar = () => {
                   <div>
                     {/* <h5>LIP</h5> */}
                     <ul>
-                      <Link to={`/mackupproduct`}>
                         <li className="first">
                           <a href="">LIP</a>
                         </li>
@@ -297,7 +318,6 @@ export const Navbar = () => {
                         <li>
                           <a href="">Lip Brushes </a>
                         </li>
-                      </Link>
                     </ul>
                   </div>
                   <div>
@@ -348,9 +368,11 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
+            <Link to={`/hairproduct`}>
               <a className="heading" href="">
                 FRAGRANCE
               </a>
+              </Link>
               <div className="hover ">
                 <div className="hover--navbar">
                   <div>
@@ -385,15 +407,16 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
+            <Link to={`/mackupproduct`}>
               <a className="heading" href="">
                 HAIRCARE
               </a>
+              </Link>
               <div className="hover ">
                 <div className="hover--navbar">
                   <div>
                     {/* <h5>SHAMPOO & CONDITIONER</h5> */}
                     <ul>
-                      <Link to={`/hairproduct`}>
                         <li className="first">
                           <a href="">SHAMPOO & CONDITIONER </a>
                         </li>
@@ -403,7 +426,6 @@ export const Navbar = () => {
                         <li>
                           <a href="">Conditioner</a>
                         </li>
-                      </Link>
                     </ul>
                   </div>
 
@@ -431,9 +453,12 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
+            <Link to={`/hairproduct`}>
+
               <a className="heading" href="">
                 TOOLS & BRUSHES
               </a>
+              </Link>
               <div className="hover">
                 <div className="hover--navbar">
                   <div>
@@ -500,9 +525,11 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
+            <Link to={`/mackupproduct`}>
               <a className="heading" href="">
                 BRANDS
               </a>
+              </Link>
               <div className="hover">
                 <div className="hover--navbar">
                   <div>

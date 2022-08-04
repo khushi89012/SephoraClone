@@ -18,7 +18,7 @@ export const Shipping = ({setCurrState}) =>{
 
     //price updation function(updated)
     const priceUpdate = ()=>{
-        const cartItems = JSON.parse(localStorage.getItem("sai")) 
+        const cartItems = JSON.parse(localStorage.getItem("sai"))||[]
         setCart(cartItems)
         let total = 0;
         cartItems.forEach(ele=>{
@@ -48,7 +48,7 @@ export const Shipping = ({setCurrState}) =>{
     const [address,setAddress] = useState({})
     //parsing address data from local storage
     useEffect(()=>{
-        let add = JSON.parse(localStorage.getItem("sephoraAddress"))
+        let add = JSON.parse(localStorage.getItem("sephoraAddress"))||[]
         if(add){
             setAddress(add)
             setShowAdd(true)
@@ -69,8 +69,11 @@ export const Shipping = ({setCurrState}) =>{
                     <div>Deliver Address</div>
                     {showAdd?
                     <>
-                    <div><span>{address.name}</span></div> 
-                     <div><span>{address.number} / {address.altNumber}</span></div> 
+                    <div>Name:<span>{address.name}</span></div> 
+                    <div>Address:<span>{address.address}</span></div>
+                    <div>PinCode:<span>{address.pincode}</span></div>
+
+                     <div>Mobile Number:<span>{address.number}</span></div> 
                     </> : null
 }
                </div>
