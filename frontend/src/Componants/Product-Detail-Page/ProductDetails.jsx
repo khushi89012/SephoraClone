@@ -17,10 +17,10 @@ export const ProductDetails = () => {
 
   const data = [
     {
-      image: details[0].image_url,
+      image: details[0].heroImage,
     },
     {
-      image: details[0].image2_url,
+      image: details[0].altImage || details[0].heroImage,
     },
   ];
 
@@ -51,11 +51,11 @@ export const ProductDetails = () => {
               <IoIosArrowUp />
             </p>
             <div>
-              <img src={details[0].image_url} alt="" />
+              <img src={details[0].heroImage} alt="" />
             </div>
             <div>
               {" "}
-              <img src={details[0].image2_url} alt="" />
+              <img src={details[0].altImage || details[0].heroImage} alt="" />
             </div>
 
             <p>
@@ -94,14 +94,15 @@ export const ProductDetails = () => {
         <div id="miandivsubdiv2">
           {details.map((e) => (
             <div>
-              <p id="miandivsubdiv2p1">{e.brandname}</p>
-              <p id="miandivsubdiv2p2">{e.productName}</p>
+             
+              <p id="miandivsubdiv2p1">{e.brandName}</p>
+              <p id="miandivsubdiv2p2">{e.displayName}</p>
               <p id="miandivsubdiv2p3">
                 <span>★★★★★</span>(
                 {Math.floor(Math.random() * (100 - 1 + 1)) + 1} ratings)
               </p>
               <p id="miandivsubdiv2b">
-                Rs. {e.price} <AiOutlineInfoCircle />
+                {e.currentSku.listPrice} <AiOutlineInfoCircle />
               </p>
               <p id="miandivsubdiv2p4">SIZE:</p>
               <p id="miandivsubdiv2p5">
@@ -120,7 +121,7 @@ export const ProductDetails = () => {
                 </div>
               </div>
               <p id="miandivsubdiv2p6">
-                COLOR: <span> Aviailable in {e.available} </span>
+                COLOR: <span> Aviailable in {e.moreColors} more colors</span>
               </p>
 
               <button id="maindivbtn1" onClick={handleStorage}>

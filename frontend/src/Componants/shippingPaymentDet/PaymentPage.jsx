@@ -35,14 +35,23 @@ export const Payment = () => {
                 setPaymode("PayOnDelivery")
   }
   // parsing local storage for cartItems
+
   useEffect(() => {
     const cartItems = JSON.parse(localStorage.getItem("sai"))||[];
     setCart(cartItems);
     let total = 0;
-    cartItems.forEach((ele) => {
-      total += ele.price;
-    });
-    setCartTotal(total);
+    const totalPrice = cartItems.reduce((sum, product) => {
+      const listPrice = product.currentSku.listPrice;
+    
+      // Convert listPrice to a numeric value (removing "$" and handling ranges)
+      const priceRange = listPrice.split('-').map(price => parseFloat(price.replace('$', '').trim()));
+    
+      // Use the average value for ranges
+      const averagePrice = priceRange.reduce((acc, price) => acc + price, 0) / priceRange.length;
+    
+      return sum + averagePrice;
+    }, 0);
+    setCartTotal(totalPrice);
   }, []);
   // for address from pop-up
   useEffect(() => {

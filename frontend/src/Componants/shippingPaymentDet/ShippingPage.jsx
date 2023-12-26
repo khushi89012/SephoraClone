@@ -20,11 +20,18 @@ export const Shipping = ({setCurrState}) =>{
     const priceUpdate = ()=>{
         const cartItems = JSON.parse(localStorage.getItem("sai"))||[]
         setCart(cartItems)
-        let total = 0;
-        cartItems.forEach(ele=>{
-             total += ele.price
-        })
-        setCartTotal(total)
+        const totalPrice = cartItems.reduce((sum, product) => {
+            const listPrice = product.currentSku.listPrice;
+          
+            // Convert listPrice to a numeric value (removing "$" and handling ranges)
+            const priceRange = listPrice.split('-').map(price => parseFloat(price.replace('$', '').trim()));
+          
+            // Use the average value for ranges
+            const averagePrice = priceRange.reduce((acc, price) => acc + price, 0) / priceRange.length;
+          
+            return sum + averagePrice;
+          }, 0);
+        setCartTotal(totalPrice)
     }
 
       //parsing data from localstorage
@@ -79,13 +86,13 @@ export const Shipping = ({setCurrState}) =>{
                {/* updated */}
            {cart.map((ele,i)=>
             <div key = {i} className = "product_det">
-                <img className = "image" src = {ele.image_url} alt = "product Img"/>
+                <img className = "image" src = {ele.altImage || ele.heroImage} alt = "product Img"/>
                 <div>
                     <ul style={{listStyle:"none"}}>
-                        <li>{ele.brandname}</li>
-                        <li><strong>{ele.productName}</strong></li>
+                        <li>{ele.brandName}</li>
+                        <li><strong>{ele.displayName}</strong></li>
                         <li><span>{ele.available}</span></li>
-                        <li><strong>Price - {ele.price}/-</strong></li>
+                        <li><strong>{ele.currentSku.listPrice}</strong></li>
                     </ul>
                     {/*  updated */}
                     <button onClick = {()=>handleRemove(ele._id)} id="removebutton">Remove</button>
