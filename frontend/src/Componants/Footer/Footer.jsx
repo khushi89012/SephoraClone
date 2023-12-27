@@ -96,13 +96,13 @@ export const Footer = () => {
 
       <div className="Footercontainer-2">
         <div className="Footer-21">
-          <a target="_self" href="/whoweare" className="Footer-22 ">
+          <a target="_self" ab="/whoweare" className="Footer-22 ">
             <h4> WHO WE ARE</h4>
           </a>
-          <a target="_self" href="/customercare" className="Footer-22 ">
+          <a target="_self" ab="/customercare" className="Footer-22 ">
             <h4>FREQUENTLY ASKED QUESTIONS</h4>
           </a>
-          <a target="_self" href="/contactus" className="Footer-22">
+          <a target="_self" ab="/contactus" className="Footer-22">
             <h4>CONTACT US</h4>
           </a>
         </div>
@@ -148,7 +148,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Sephora Collection"
-                  href="https://sephora.nnnow.com/sephora-collection"
+                  ab="https://sephora.nnnow.com/sephora-collection"
                 >
                   Sephora Collection
                 </a>
@@ -157,7 +157,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   Benefit Cosmetics
                 </a>
@@ -166,26 +166,26 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Make Up For Ever"
-                  href="https://sephora.nnnow.com/make-up-for-ever"
+                  ab="https://sephora.nnnow.com/make-up-for-ever"
                 >
                   Make Up For Ever
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Cover FX" href="https://sephora.nnnow.com/cover-fx">
+                <a alt="Cover FX" ab="https://sephora.nnnow.com/cover-fx">
                   Cover FX
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Stila" href="https://sephora.nnnow.com/stila">
+                <a alt="Stila" ab="https://sephora.nnnow.com/stila">
                   Stila
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a calt="Natio" href="https://sephora.nnnow.com/natio">
+                <a calt="Natio" ab="https://sephora.nnnow.com/natio">
                   Natio
                 </a>
               </span>{" "}
@@ -193,7 +193,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Burt's Bees"
-                  href="https://sephora.nnnow.com/burts-bees"
+                  ab="https://sephora.nnnow.com/burts-bees"
                 >
                   Burt's Bees
                 </a>
@@ -203,7 +203,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Foreo"
-                  href="https://sephora.nnnow.com/foreo"
+                  ab="https://sephora.nnnow.com/foreo"
                 >
                   Foreo
                 </a>
@@ -213,7 +213,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Smashbox"
-                  href="https://sephora.nnnow.com/smashbox"
+                  ab="https://sephora.nnnow.com/smashbox"
                 >
                   Smashbox
                 </a>
@@ -223,7 +223,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Glamglow"
-                  href="https://sephora.nnnow.com/sephora_glamglow"
+                  ab="https://sephora.nnnow.com/sephora_glamglow"
                 >
                   Glamglow
                 </a>
@@ -233,7 +233,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Clinique"
-                  href="https://sephora.nnnow.com/clinique"
+                  ab="https://sephora.nnnow.com/clinique"
                 >
                   Clinique
                 </a>
@@ -243,7 +243,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Estee Lauder"
-                  href="https://sephora.nnnow.com/esteelauder"
+                  ab="https://sephora.nnnow.com/esteelauder"
                 >
                   Estee Lauder
                 </a>
@@ -253,14 +253,14 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Elizabeth Arden"
-                  href="https://sephora.nnnow.com/elizabeth-arden"
+                  ab="https://sephora.nnnow.com/elizabeth-arden"
                 >
                   Elizabeth Arden
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Givenchy" href="https://sephora.nnnow.com/givenchy">
+                <a alt="Givenchy" ab="https://sephora.nnnow.com/givenchy">
                   Givenchy
                 </a>
               </span>{" "}
@@ -268,7 +268,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Bobbi Brown"
-                  href="https://sephora.nnnow.com/bobbibrown_all"
+                  ab="https://sephora.nnnow.com/bobbibrown_all"
                 >
                   Bobbi Brown
                 </a>
@@ -277,7 +277,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   Benefit Cosmetics
                 </a>
@@ -286,26 +286,26 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Make Up For Ever"
-                  href="https://sephora.nnnow.com/make-up-for-ever"
+                  ab="https://sephora.nnnow.com/make-up-for-ever"
                 >
                   Make Up For Ever
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Cover FX" href="https://sephora.nnnow.com/cover-fx">
+                <a alt="Cover FX" ab="https://sephora.nnnow.com/cover-fx">
                   Cover FX
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Stila" href="https://sephora.nnnow.com/stila">
+                <a alt="Stila" ab="https://sephora.nnnow.com/stila">
                   Stila
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a calt="Natio" href="https://sephora.nnnow.com/natio">
+                <a calt="Natio" ab="https://sephora.nnnow.com/natio">
                   Natio
                 </a>
               </span>{" "}
@@ -313,7 +313,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Burt's Bees"
-                  href="https://sephora.nnnow.com/burts-bees"
+                  ab="https://sephora.nnnow.com/burts-bees"
                 >
                   Burt's Bees
                 </a>
@@ -323,7 +323,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Foreo"
-                  href="https://sephora.nnnow.com/foreo"
+                  ab="https://sephora.nnnow.com/foreo"
                 >
                   Foreo
                 </a>
@@ -333,7 +333,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Smashbox"
-                  href="https://sephora.nnnow.com/smashbox"
+                  ab="https://sephora.nnnow.com/smashbox"
                 >
                   Smashbox
                 </a>
@@ -343,7 +343,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Glamglow"
-                  href="https://sephora.nnnow.com/sephora_glamglow"
+                  ab="https://sephora.nnnow.com/sephora_glamglow"
                 >
                   Glamglow
                 </a>
@@ -353,7 +353,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Clinique"
-                  href="https://sephora.nnnow.com/clinique"
+                  ab="https://sephora.nnnow.com/clinique"
                 >
                   Clinique
                 </a>
@@ -363,7 +363,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Estee Lauder"
-                  href="https://sephora.nnnow.com/esteelauder"
+                  ab="https://sephora.nnnow.com/esteelauder"
                 >
                   Estee Lauder
                 </a>
@@ -373,14 +373,14 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Elizabeth Arden"
-                  href="https://sephora.nnnow.com/elizabeth-arden"
+                  ab="https://sephora.nnnow.com/elizabeth-arden"
                 >
                   Elizabeth Arden
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Givenchy" href="https://sephora.nnnow.com/givenchy">
+                <a alt="Givenchy" ab="https://sephora.nnnow.com/givenchy">
                   Givenchy
                 </a>
               </span>{" "}
@@ -388,7 +388,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Bobbi Brown"
-                  href="https://sephora.nnnow.com/bobbibrown_all"
+                  ab="https://sephora.nnnow.com/bobbibrown_all"
                 >
                   Bobbi Brown
                 </a>
@@ -402,7 +402,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Sephora Collection"
-                  href="https://sephora.nnnow.com/sephora-collection"
+                  ab="https://sephora.nnnow.com/sephora-collection"
                 >
                   Sephora Collection
                 </a>
@@ -411,7 +411,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   Benefit Cosmetics
                 </a>
@@ -420,26 +420,26 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Make Up For Ever"
-                  href="https://sephora.nnnow.com/make-up-for-ever"
+                  ab="https://sephora.nnnow.com/make-up-for-ever"
                 >
                   Make Up For Ever
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Cover FX" href="https://sephora.nnnow.com/cover-fx">
+                <a alt="Cover FX" ab="https://sephora.nnnow.com/cover-fx">
                   Cover FX
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Stila" href="https://sephora.nnnow.com/stila">
+                <a alt="Stila" ab="https://sephora.nnnow.com/stila">
                   Stila
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a calt="Natio" href="https://sephora.nnnow.com/natio">
+                <a calt="Natio" ab="https://sephora.nnnow.com/natio">
                   Natio
                 </a>
               </span>{" "}
@@ -447,7 +447,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Burt's Bees"
-                  href="https://sephora.nnnow.com/burts-bees"
+                  ab="https://sephora.nnnow.com/burts-bees"
                 >
                   Burt's Bees
                 </a>
@@ -457,7 +457,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Foreo"
-                  href="https://sephora.nnnow.com/foreo"
+                  ab="https://sephora.nnnow.com/foreo"
                 >
                   Foreo
                 </a>
@@ -467,7 +467,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Smashbox"
-                  href="https://sephora.nnnow.com/smashbox"
+                  ab="https://sephora.nnnow.com/smashbox"
                 >
                   Smashbox
                 </a>
@@ -480,7 +480,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Sephora Collection"
-                  href="https://sephora.nnnow.com/sephora-collection"
+                  ab="https://sephora.nnnow.com/sephora-collection"
                 >
                   Sephora Collection
                 </a>
@@ -489,7 +489,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   Benefit Cosmetics
                 </a>
@@ -498,26 +498,26 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Make Up For Ever"
-                  href="https://sephora.nnnow.com/make-up-for-ever"
+                  ab="https://sephora.nnnow.com/make-up-for-ever"
                 >
                   Make Up For Ever
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Cover FX" href="https://sephora.nnnow.com/cover-fx">
+                <a alt="Cover FX" ab="https://sephora.nnnow.com/cover-fx">
                   Cover FX
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a alt="Stila" href="https://sephora.nnnow.com/stila">
+                <a alt="Stila" ab="https://sephora.nnnow.com/stila">
                   Stila
                 </a>
               </span>{" "}
               |{" "}
               <span>
-                <a calt="Natio" href="https://sephora.nnnow.com/natio">
+                <a calt="Natio" ab="https://sephora.nnnow.com/natio">
                   Natio
                 </a>
               </span>{" "}
@@ -525,7 +525,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Burt's Bees"
-                  href="https://sephora.nnnow.com/burts-bees"
+                  ab="https://sephora.nnnow.com/burts-bees"
                 >
                   Burt's Bees
                 </a>
@@ -535,7 +535,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Foreo"
-                  href="https://sephora.nnnow.com/foreo"
+                  ab="https://sephora.nnnow.com/foreo"
                 >
                   Foreo
                 </a>
@@ -548,7 +548,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Sephora Collection"
-                  href="https://sephora.nnnow.com/sephora-collection"
+                  ab="https://sephora.nnnow.com/sephora-collection"
                 >
                   Sephora Collection
                 </a>
@@ -557,7 +557,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   Benefit Cosmetics
                 </a>
@@ -571,7 +571,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Sephora Collection"
-                  href="https://sephora.nnnow.com/sephora-collection"
+                  ab="https://sephora.nnnow.com/sephora-collection"
                 >
                   Sephora Collection
                 </a>
@@ -580,13 +580,13 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Benefit Cosmetics"
-                  href="https://sephora.nnnow.com/benefit-cosmetics"
+                  ab="https://sephora.nnnow.com/benefit-cosmetics"
                 >
                   My Order
                 </a>
               </span>{" "}
               <span>
-                <a calt="Natio" href="https://sephora.nnnow.com/natio">
+                <a calt="Natio" ab="https://sephora.nnnow.com/natio">
                   {" "}
                   Store Location
                 </a>
@@ -595,7 +595,7 @@ export const Footer = () => {
               <span>
                 <a
                   alt="Burt's Bees"
-                  href="https://sephora.nnnow.com/burts-bees"
+                  ab="https://sephora.nnnow.com/burts-bees"
                 >
                   Burt's Bees
                 </a>
@@ -605,7 +605,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   alt="Foreo"
-                  href="https://sephora.nnnow.com/foreo"
+                  ab="https://sephora.nnnow.com/foreo"
                 >
                   Foreo
                 </a>

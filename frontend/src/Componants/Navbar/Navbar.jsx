@@ -41,9 +41,9 @@ export const Navbar = () => {
               placeholder="Search SEPHORA"
             />
           </div>
-          <div className="Navbar-14">
+          <div className="Navbar-14" title={'Click me'}>
           <Link className="Navbar-15" to={`/`}>
-            <div className="Navbar-15">SEPHORA</div>
+            <div className="Navbar-15" >SEPHORA</div>
             </Link>
           </div>
           <div className="Navbar-16">
@@ -57,7 +57,7 @@ export const Navbar = () => {
                 </li>
               <li>|</li>
               {z=="Login" ?
-              <Link to={`/login`}>
+              <Link to={`/login`} title={'Click me'}>
               <span id="adjustment1">
                 <li  className="hellohover" style={{display:'flex',justifyContent:'space-between'}}>
                   <RiContactsLine /> <p style={{marginLeft:'5px'}}>{z=="Login" ? z : ''}</p> 
@@ -79,16 +79,16 @@ export const Navbar = () => {
           <ul>
             <li className="nav-hover ">
               {" "}
-              <Link to={`/mackupproduct`}>
-              <a className="heading1" href="">
+              <Link to={`/mackupproduct`} title={'Click me'}>
+              <a className="heading1">
                 SALE
               </a>
               </Link>
             </li>
             <li className="nav-hover">
-            <Link to={`/mackupproduct`}>
+            <Link to={`/mackupproduct`} title={'Click me'}>
 
-              <a href="" className="heading">
+              <a className="heading">
                 MAKEUP
               </a>
               </Link>
@@ -97,28 +97,28 @@ export const Navbar = () => {
                   <div>
                     <ul>
                       <li className="first">
-                        <a href="">FACE</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>FACE</Link>
                       </li>
                       <li>
-                        <a href="">Foundation</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Foundation</Link>
                       </li>
                       <li>
-                        <a href="">BB & CC Cream</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>BB & CC Cream</Link>
                       </li>
                       <li>
-                        <a href="">Concealer</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Concealer</Link>
                       </li>
                       <li>
-                        <a href="">Face Primer</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Primer</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Makeup Palette</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Makeup Palette</Link>
                       </li>
                       <li>
-                        <a href="">Face Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Brushes</Link>
                       </li>
                     </ul>
                   </div>
@@ -126,31 +126,31 @@ export const Navbar = () => {
                     {/* <h5>	EYE</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">EYE</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>EYE</Link>
                       </li>
                       <li>
-                        <a href="">Eye Palettes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eye Palettes</Link>
                       </li>
                       <li>
-                        <a href="">Mascara</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Mascara</Link>
                       </li>
                       <li>
-                        <a href="">Eyeliner</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eyeliner</Link>
                       </li>
                       <li>
-                        <a href="">Eyebrow</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eyebrow</Link>
                       </li>
                       <li>
-                        <a href="">Eyeshadowr</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eyeshadowr</Link>
                       </li>
                       <li>
-                        <a href="">Eye Primer</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eye Primer</Link>
                       </li>
                       <li>
-                        <a href="">Eye Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eye Brushes</Link>
                       </li>
                       <li>
-                        <a href="">Contact Lenses</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Contact Lenses</Link>
                       </li>
                     </ul>
                   </div>
@@ -158,25 +158,25 @@ export const Navbar = () => {
                     {/* <h5>LIP</h5> */}
                     <ul>
                         <li className="first">
-                          <a href="">LIP</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>LIP</Link>
                         </li>
                         <li>
-                          <a href="">Lip Stain</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lip Stain</Link>
                         </li>
                         <li>
-                          <a href="">Lipstick</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lipstick</Link>
                         </li>
                         <li>
-                          <a href="">Lip Gloss</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lip Gloss</Link>
                         </li>
                         <li>
-                          <a href="">Lip Liner</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lip Liner</Link>
                         </li>
                         <li>
-                          <a href="">Lip Balm & Treatment</a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lip Balm & Treatment</Link>
                         </li>
                         <li>
-                          <a href="">Lip Brushes </a>
+                          <Link to={`/mackupproduct`} title={'Click me'}>Lip Brushes </Link>
                         </li>
                     </ul>
                   </div>
@@ -184,19 +184,19 @@ export const Navbar = () => {
                     {/* <h5>CHEEK</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">CHEEK</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>CHEEK</Link>
                       </li>
                       <li>
-                        <a href="">Blush</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Blush</Link>
                       </li>
                       <li>
-                        <a href="">Bronzer</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Bronzer</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Face Oils</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Oils</Link>
                       </li>
                     </ul>
                   </div>
@@ -204,22 +204,22 @@ export const Navbar = () => {
                     {/* <h5>NAIL MAKEUP</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">NAIL MAKEUP </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>NAIL MAKEUP </Link>
                       </li>
                       <li>
-                        <a href="">Nail Polish</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Nail Polish</Link>
                       </li>
                       <li>
-                        <a href="">Nail Care</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Nail Care</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Manicure Tools</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Manicure Tools</Link>
                       </li>
                       <li>
-                        <a href="">Pedicure Tools</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Pedicure Tools</Link>
                       </li>
                     </ul>
                   </div>
@@ -227,8 +227,8 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
-            <Link to={`/hairproduct`}>
-              <a className="heading" href="">
+            <Link to={`/hairproduct`} title={'Click me'}>
+              <a className="heading">
                 SKINCARE
               </a>
               </Link>
@@ -238,59 +238,59 @@ export const Navbar = () => {
                     {/* <h5>FACE</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">FACE</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>FACE</Link>
                       </li>
                       <li>
-                        <a href="">Foundation</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Foundation</Link>
                       </li>
                       <li>
-                        <a href="">BB & CC Cream</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>BB & CC Cream</Link>
                       </li>
                       <li>
-                        <a href="">Concealer</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Concealer</Link>
                       </li>
                       <li>
-                        <a href="">Face Primer</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Face Primer</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Makeup Palette</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Makeup Palette</Link>
                       </li>
                       <li>
-                        <a href="">Face Brushes</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Face Brushes</Link>
                       </li>
                     </ul>
                   </div>
                   <div>
                     <ul>
                       <li className="first">
-                        <a href="">EYE </a>
+                        <Link to={`/hairproduct`} title={'Click me'}>EYE </Link>
                       </li>
                       <li>
-                        <a href="">Eye Palettes</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eye Palettes</Link>
                       </li>
                       <li>
-                        <a href="">Mascara</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Mascara</Link>
                       </li>
                       <li>
-                        <a href="">Eyeliner</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eyeliner</Link>
                       </li>
                       <li>
-                        <a href="">Eyebrow</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eyebrow</Link>
                       </li>
                       <li>
-                        <a href="">Eyeshadowr</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eyeshadowr</Link>
                       </li>
                       <li>
-                        <a href="">Eye Primer</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eye Primer</Link>
                       </li>
                       <li>
-                        <a href="">Eye Brushes</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Eye Brushes</Link>
                       </li>
                       <li>
-                        <a href="">Contact Lenses</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Contact Lenses</Link>
                       </li>
                     </ul>
                   </div>
@@ -298,25 +298,25 @@ export const Navbar = () => {
                     {/* <h5>LIP</h5> */}
                     <ul>
                         <li className="first">
-                          <a href="">LIP</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>LIP</Link>
                         </li>
                         <li>
-                          <a href="">Lip Stain</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lip Stain</Link>
                         </li>
                         <li>
-                          <a href="">Lipstick</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lipstick</Link>
                         </li>
                         <li>
-                          <a href="">Lip Gloss</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lip Gloss</Link>
                         </li>
                         <li>
-                          <a href="">Lip Liner</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lip Liner</Link>
                         </li>
                         <li>
-                          <a href="">Lip Balm & Treatment</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lip Balm & Treatment</Link>
                         </li>
                         <li>
-                          <a href="">Lip Brushes </a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Lip Brushes </Link>
                         </li>
                     </ul>
                   </div>
@@ -324,19 +324,19 @@ export const Navbar = () => {
                     {/* <h5>CHEEK</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">CHEEK </a>
+                        <Link to={`/hairproduct`} title={'Click me'}>CHEEK </Link>
                       </li>
                       <li>
-                        <a href="">Blush</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Blush</Link>
                       </li>
                       <li>
-                        <a href="">Bronzer</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Bronzer</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Face Oils</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Face Oils</Link>
                       </li>
                     </ul>
                   </div>
@@ -345,22 +345,22 @@ export const Navbar = () => {
 
                     <ul>
                       <li className="first">
-                        <a href="">NAIL MAKEUP </a>
+                        <Link to={`/hairproduct`} title={'Click me'}>NAIL MAKEUP </Link>
                       </li>
                       <li>
-                        <a href="">Nail Polish</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Nail Polish</Link>
                       </li>
                       <li>
-                        <a href="">Nail Care</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Nail Care</Link>
                       </li>
                       <li>
-                        <a href="">Highlighter</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Highlighter</Link>
                       </li>
                       <li>
-                        <a href="">Manicure Tools</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Manicure Tools</Link>
                       </li>
                       <li>
-                        <a href="">Pedicure Tools</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Pedicure Tools</Link>
                       </li>
                     </ul>
                   </div>
@@ -368,8 +368,8 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
-            <Link to={`/hairproduct`}>
-              <a className="heading" href="">
+            <Link to={`/hairproduct`} title={'Click me'}>
+              <a className="heading">
                 FRAGRANCE
               </a>
               </Link>
@@ -379,13 +379,13 @@ export const Navbar = () => {
                     {/* <h5>WOMEN</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">WOMEN </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>WOMEN </Link>
                       </li>
                       <li>
-                        <a href="">Perfume</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Perfume</Link>
                       </li>
                       <li>
-                        <a href="">Mists and Deodorants</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Mists and Deodorants</Link>
                       </li>
                     </ul>
                   </div>
@@ -393,13 +393,13 @@ export const Navbar = () => {
                     {/* <h5>MEN</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">MEN </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>MEN </Link>
                       </li>
                       <li>
-                        <a href="">Perfume</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Perfume</Link>
                       </li>
                       <li>
-                        <a href="">Body Sprays & Deodorant</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Body Sprays & Deodorant</Link>
                       </li>
                     </ul>
                   </div>
@@ -407,8 +407,8 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
-            <Link to={`/mackupproduct`}>
-              <a className="heading" href="">
+            <Link to={`/mackupproduct`} title={'Click me'}>
+              <a className="heading">
                 HAIRCARE
               </a>
               </Link>
@@ -418,13 +418,13 @@ export const Navbar = () => {
                     {/* <h5>SHAMPOO & CONDITIONER</h5> */}
                     <ul>
                         <li className="first">
-                          <a href="">SHAMPOO & CONDITIONER </a>
+                          <Link to={`/hairproduct`} title={'Click me'}>SHAMPOO & CONDITIONER </Link>
                         </li>
                         <li>
-                          <a href="">Shampoo</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Shampoo</Link>
                         </li>
                         <li>
-                          <a href="">Conditioner</a>
+                          <Link to={`/hairproduct`} title={'Click me'}>Conditioner</Link>
                         </li>
                     </ul>
                   </div>
@@ -433,19 +433,19 @@ export const Navbar = () => {
                     {/* <h5>HAIR STYLING & TREATMENTS</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">HAIR STYLING & TREATMENTS </a>
+                        <Link to={`/hairproduct`} title={'Click me'}>HAIR STYLING & TREATMENTS </Link>
                       </li>
                       <li>
-                        <a href="">Hair Spray & Styling Products</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Hair Spray & Styling Products</Link>
                       </li>
                       <li>
-                        <a href="">Hair Masks</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Hair Masks</Link>
                       </li>
                       <li>
-                        <a href="">Hair Clips</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Hair Clips</Link>
                       </li>
                       <li>
-                        <a href="">Hair Oil</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Hair Oil</Link>
                       </li>
                     </ul>
                   </div>
@@ -453,9 +453,9 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
-            <Link to={`/hairproduct`}>
+            <Link to={`/hairproduct`} title={'Click me'}>
 
-              <a className="heading" href="">
+              <a className="heading">
                 TOOLS & BRUSHES
               </a>
               </Link>
@@ -465,16 +465,16 @@ export const Navbar = () => {
                     {/* <h5>	BRUSHES</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">BRUSHES </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>BRUSHES </Link>
                       </li>
                       <li>
-                        <a href="">Eye Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eye Brushes</Link>
                       </li>
                       <li>
-                        <a href="">Face Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Brushes</Link>
                       </li>
                       <li>
-                        <a href="">Lip Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Lip Brushes</Link>
                       </li>
                     </ul>
                   </div>
@@ -482,28 +482,28 @@ export const Navbar = () => {
                     {/* <h5>TOOLS</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">TOOLS </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>TOOLS </Link>
                       </li>
                       <li>
-                        <a href="">Sponges & Applicators</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Sponges & Applicators</Link>
                       </li>
                       <li>
-                        <a href="">Face Tools</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Tools</Link>
                       </li>
                       <li>
-                        <a href="">Hair Clips</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Hair Clips</Link>
                       </li>
                       <li>
-                        <a href="">Sharpeners</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Sharpeners</Link>
                       </li>
                       <li>
-                        <a href="">Eyelash Curlers</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eyelash Curlers</Link>
                       </li>
                       <li>
-                        <a href="">Accessories</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Accessories</Link>
                       </li>
                       <li>
-                        <a href="">Brush Cleaners</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Brush Cleaners</Link>
                       </li>
                     </ul>
                   </div>
@@ -511,13 +511,13 @@ export const Navbar = () => {
                     {/* <h5>VEGAN</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">VEGAN </a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>VEGAN </Link>
                       </li>
                       <li>
-                        <a href="">Face Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Face Brushes</Link>
                       </li>
                       <li>
-                        <a href="">Eye Brushes</a>
+                        <Link to={`/mackupproduct`} title={'Click me'}>Eye Brushes</Link>
                       </li>
                     </ul>
                   </div>
@@ -525,8 +525,8 @@ export const Navbar = () => {
               </div>
             </li>
             <li className="nav-hover">
-            <Link to={`/mackupproduct`}>
-              <a className="heading" href="">
+            <Link to={`/mackupproduct`} title={'Click me'}>
+              <a className="heading">
                 BRANDS
               </a>
               </Link>
@@ -536,37 +536,37 @@ export const Navbar = () => {
                     {/* <h5>TOP MAKEUP BRANDS</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">TOP MAKEUP BRANDS</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>TOP MAKEUP BRANDS</Link>
                       </li>
                       <li>
-                        <a href="">Lancôme</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Lancôme</Link>
                       </li>
                       <li>
-                        <a href="">Caudalie</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Caudalie</Link>
                       </li>
                       <li>
-                        <a href="">Kora Organics</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Kora Organics</Link>
                       </li>
                       <li>
-                        <a href="">Mario Badescu</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Mario Badescu</Link>
                       </li>
                       <li>
-                        <a href="">Foreo</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Foreo</Link>
                       </li>
                       <li>
-                        <a href="">Shiseido</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Shiseido</Link>
                       </li>
                       <li>
-                        <a href="">Estee Lauder</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Estee Lauder</Link>
                       </li>
                       <li>
-                        <a href="">Elizabeth Arden</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Elizabeth Arden</Link>
                       </li>
                       <li>
-                        <a href="">Clarins</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Clarins</Link>
                       </li>
                       <li>
-                        <a href="">Gallinee</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Gallinee</Link>
                       </li>
                     </ul>
                   </div>
@@ -574,44 +574,44 @@ export const Navbar = () => {
                     {/* <h5>TOP FRAGRANCE BRANDS</h5> */}
                     <ul>
                       <li className="first">
-                        <a href="">FRAGRANCE BRANDS</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>FRAGRANCE BRANDS</Link>
                       </li>
                       <li>
-                        <a href="">Shiseido</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Shiseido</Link>
                       </li>
                       <li>
-                        <a href="">Estee Lauder</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Estee Lauder</Link>
                       </li>
                       <li>
-                        <a href="">Elizabeth Arden</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Elizabeth Arden</Link>
                       </li>
                       <li>
-                        <a href="">Clarins</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Clarins</Link>
                       </li>
                       <li>
-                        <a href="">Gallinee</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Gallinee</Link>
                       </li>
                       <li>
-                        <a href="">Lancôme</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Lancôme</Link>
                       </li>
                       <li>
-                        <a href="">Caudalie</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Caudalie</Link>
                       </li>
                       <li>
-                        <a href="">Kora Organics</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Kora Organics</Link>
                       </li>
                       <li>
-                        <a href="">Mario Badescu</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Mario Badescu</Link>
                       </li>
                       <li>
-                        <a href="">Foreo</a>
+                        <Link to={`/hairproduct`} title={'Click me'}>Foreo</Link>
                       </li>
                     </ul>
                   </div>
                   <div>
                     {" "}
                     <li className="first">
-                      <a href=""> BRANDS A-Z</a>
+                      <Link to={`/hairproduct`} title={'Click me'}> BRANDS A-Z</Link>
                     </li>
                   </div>
                 </div>
