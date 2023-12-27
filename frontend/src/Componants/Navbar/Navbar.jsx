@@ -59,14 +59,14 @@ export const Navbar = () => {
               {z=="Login" ?
               <Link to={`/login`}>
               <span id="adjustment1">
-                <li  className="hellohover">
-                  <RiContactsLine />
+                <li  className="hellohover" style={{display:'flex',justifyContent:'space-between'}}>
+                  <RiContactsLine /> <p style={{marginLeft:'5px'}}>{z=="Login" ? z : ''}</p> 
                 </li>
               </span>
             </Link>:null}
               
               <div className="hellohover" style={z!=="Login" ? { color:"rgb(255,51,153)",cursor: "pointer"}:{color:"black"}}> 
-              {z} 
+              {z=="Login" ? '' : z} 
               </div>
               {z!=="Login" ? <p className="hellohover" onClick={()=>logouter()} style={{color:"rgb(255,51,153)",cursor: "pointer"}}>Logout</p>:null}
               
