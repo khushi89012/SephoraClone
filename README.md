@@ -4,7 +4,6 @@
  We are team of 6 members (  Sai Narasimha,Hemant Suryawanshi, Khushi Gupta, Ritu, Viraj Gupta, Tanya) has completed the task in 5 days and Given our best efforts to Construct this project.
 In case of any suggestion and query feel free to connect us.
 
-
 ---
 
 ### Medium Link
@@ -16,7 +15,7 @@ https://medium.com/@rkvirajgupta/cloning-of-a-french-website-sephora-3cb0fb11031
 https://shephoraindia.netlify.app/
 
 ---
----
+
   <h1>TEAM MEMBERS AND MESSAGE></h1>
 we really enjoyed this whole part of developing and had a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
 
@@ -28,8 +27,6 @@ we really enjoyed this whole part of developing and had a learing experience and
 - **[Sai Narasimha](https://github.com/Sai-Narasimha)**
 - **[Viraj Gupta](https://github.com/rkvirajgupta)**
 - **[Tanya](https://github.com/TanyaIndian)**
-
-
 
 ---
  
@@ -46,9 +43,6 @@ we really enjoyed this whole part of developing and had a learing experience and
 <li>cors : 2.8.5</li>
  <li>React</li>
  <li>Node.js</li>
-
- 
- 
   <h1>Node packages and libraries ></h1>
   <li>styled-components : 5.3.1</li>
  <li>cors : 2.8.5</li>
@@ -114,7 +108,6 @@ _Or you can directly explore our project through this link_
 
   ![Payment Page](https://miro.medium.com/max/1400/1*aBg4DT5IG4JAFJ68pwQGqA.png)
 
-
 ---
 
 ### About Project
@@ -123,8 +116,6 @@ _Or you can directly explore our project through this link_
 
 ---
 
-
-
  <h1>WEBSITE USER FLOW ></h1>
  ----
 the user flow that we tried to maintain is,
@@ -132,7 +123,6 @@ the user flow that we tried to maintain is,
 home -> login/signup -> dashboard -> get started to products -> create user Id-> Enter email details -> choose products -> Product detail page-> -> Products Check out page ->payment status -> order placed -> track status.
  
 ----
-
 
 ------
 
