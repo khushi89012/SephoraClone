@@ -52,15 +52,15 @@ export const Navbar = () => {
                 <FiHeart />
               </li>
               <li>|</li>
-                <li className="hellohover" onClick={()=>handleCart()} style={{cursor: "pointer"}}>
-                  <HiOutlineShoppingBag />
+                <li className="hellohover" onClick={()=>handleCart()} style={{cursor: "pointer"}} title={'Click to view cart'}>
+                  Cart <HiOutlineShoppingBag />
                 </li>
               <li>|</li>
               {z=="Login" ?
-              <Link to={`/login`} title={'Click me'}>
+              <Link to={`/login`} title={'Click to login'}>
               <span id="adjustment1">
-                <li  className="hellohover" style={{display:'flex',justifyContent:'space-between'}}>
-                  <RiContactsLine /> <p style={{marginLeft:'5px'}}>{z=="Login" ? z : ''}</p> 
+                <li  className="hellohover" style={{color:"rgb(255,51,153)", display:'flex',justifyContent:'space-between'}}>
+                  <RiContactsLine /> <p style={{marginLeft:'5px',color:"rgb(255,51,153)"}}>{z=="Login" ? z : ''}</p> 
                 </li>
               </span>
             </Link>:null}
