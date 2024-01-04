@@ -29,13 +29,14 @@ export const HeadBar = () => {
   return (
     <div className="head_wrapper">
       <div className="co_head">
-        <div className="company_logo">
+        <div className="company_logo" onClick={() => navigate("/")}>
           <img
             src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
-            alt="companyLogo"/>
+            alt="Sephora"/>
         </div>
         <div className="user_det">
-          <p>{userName}</p>
+          <p>{}</p>
+          <select style={{border:'none',}}><option>{userName}</option></select>
           <div className="user_opt">
             <Option>
              <span><UserIcon className="icons" style = {{color : "rgb(43,162,228)", fontweight : "bold"}}/> My Account </span>
@@ -48,7 +49,7 @@ export const HeadBar = () => {
             </Option>
             <hr style = {{width:"80%", margin : "auto", marginTop :"8px"}}/>
             <Option>
-             <span><LogoutIcon className="icons" onClick={()=>logouter()} style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Sign Out </span>
+             <span onClick={()=>logouter()} ><LogoutIcon className="icons" style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Sign Out </span>
             </Option>
           
           </div>

@@ -13,7 +13,6 @@ export const OTP = () => {
 
      let chaker = JSON.parse(localStorage.getItem("emailverify"));
      var userList = JSON.parse(localStorage.getItem("allusers")) || [];
-
      for(let i =0;i<userList.length;i++){
         if(chaker==userList[i].Email||chaker==userList[i].Num){
             localStorage.setItem("user", JSON.stringify(userList[i].Name));
@@ -23,9 +22,6 @@ export const OTP = () => {
 
         }
      }
-
-        navigate('/signup')
-        return
     }
     alert("wrong otp please try again")
  } 

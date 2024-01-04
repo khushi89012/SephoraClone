@@ -9,7 +9,8 @@ import './login.css'
 export const Login = () => {
   const [user, setUser] = useState([]);
   const [form123, setForm123] = useState("");
-  const [emailer,setEmailer ] = useState("")
+  const [emailer,setEmailer ] = useState("");
+  const [pwd, setPwd] = useState("");
  
   const handleChange = (e) => {
   
@@ -19,16 +20,25 @@ export const Login = () => {
   
 
   const handleSubmit = (e) => {
-     if(emailer==""){
-      alert("please fill email or mobile Number")
+     if(emailer=="" ||pwd==""){
+      alert("please fill required details")
       return
      }
-    
-     alert("your otp is 12345")
+     const users = JSON.parse(localStorage.getItem("allusers"))
+     const user = users.find((ele) => {
+       if(ele.Email==emailer || ele.Num === emailer && ele.Password === pwd){
+         return ele
+        } 
+      })
+      if(user){
+       alert("your otp is 12345")
+       localStorage.setItem("emailverify", JSON.stringify(emailer));
+        navigate('/otp')
+     }
+     else{
+      alert("Wrong email id / mobile no or password")
+     }
 
-     localStorage.setItem("emailverify", JSON.stringify(emailer));
-
-     navigate('/otp')
   };
 
   const navigate = useNavigate();
@@ -58,6 +68,9 @@ export const Login = () => {
     // console.log("useState", user);
   }, [responseSuccessGoogle,responseFacebook]);
 
+  const signup = () => {
+    navigate('/signup')
+  }
   return (
     <>
       <div className="forapper">
@@ -78,14 +91,29 @@ export const Login = () => {
             required
             onInput={(e)=>setEmailer(e.target.value)}
             
-          />        
+          />
+          <input
+            type="password"
+            name="password"  
+            value={pwd}         
+            placeholder="Enter Password"
+            required
+            onInput={(e)=>setPwd(e.target.value)}
+            style={{marginTop:'5px'}}
+            
+          />      
           <br />
-          <br></br>
-          <Button
+          <div style={{
+            display:'flex',
+            textAlign:'center',
+            justifyContent:'space-around',
+            marginTop:'10px'
+
+          }}><Button
             style={{
               backgroundColor: "rgb(255,51,153)",
               border: "none",
-              width: "90%",
+              width: "40%",
             }}
             color="primary"
             variant="contained"
@@ -95,8 +123,20 @@ export const Login = () => {
             {" "}
             Continue{" "}
           </Button >
-          <br></br>
-          <br></br>
+          <Button
+            style={{
+              backgroundColor: "rgb(255,51,153)",
+              border: "none",
+              width: "40%",
+            }}
+            color="primary"
+            variant="contained"
+            value="Submit"
+            onClick={()=>{signup()}}
+          >
+            {" "}
+            SignUp{" "}
+          </Button ></div>
         </form>
         <p>-------- OR --------</p>
         <br></br>

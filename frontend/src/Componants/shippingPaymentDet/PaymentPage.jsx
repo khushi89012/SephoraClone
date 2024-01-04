@@ -158,45 +158,6 @@ export const Payment = () => {
               </div>
             </div>
             <div>
-              <label style={{marginLeft:"35px"}}>Paytm Wallet</label>{"  "}
-              
-              <span className="hellohover"  style={{color:"rgb(255,51,153)" ,cursor: "pointer"}}>click me</span>
-              <div className={show3 ? "display" : "none"}>
-                <form className="form" >
-
-                  <input
-                    type="number"
-                    placeholder="Enter Paytm Number"
-                    className="i"
-                    required
-                  />
-                  
-                  <input type="submit" className="j ll"  />
-                </form>
-
-              </div>
-            </div>
-            
-            <div>
-             <label style={{marginLeft:"35px"}}>UPI</label>{"  "}
-             <span className="hellohover"
-               style={{color:"rgb(255,51,153)",cursor: "pointer"}}>click me</span>
-             <div className={show4 ? "display" : "none"}>
-                <form className="form" >
-
-                  <input
-                    type="text"
-                    placeholder="Enter UPI Id"
-                    className="i" 
-                    required
-                    
-                  />
-                  <input type="submit" className="j ll"  />
-                </form>
-
-              </div>
-            </div>
-            <div>
              
               <label style={{marginLeft:"35px"}}>
                 Pay on Delivery (UPI,Wallet,Card and Cash){" "}<span 
@@ -213,13 +174,12 @@ export const Payment = () => {
         <div className="price_det">
           <PricingTable total={cartTotal} />
           <div className="continue" onClick={handleAlert}>
-            <Link to={`/home`}>
-              <span style = {{color : "white"}}>PLACE ORDER</span>
-            </Link>
+            {cart.length === 0 ? <span>Go Shopping</span> :
+              <span style = {{color : "white"}}>PLACE ORDER</span>}
           </div>
         </div>
       </div>
-      {z.length==0 ? <AddForm setShowForm={setShowForm} /> : null}
+      {z.length==0 ? <AddForm setShowForm={setShowForm} />  : null}
     </>
   );
 };

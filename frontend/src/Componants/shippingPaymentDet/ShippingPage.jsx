@@ -45,7 +45,7 @@ export const Shipping = ({setCurrState}) =>{
       // remove item (updated)
       const handleRemove = (_id)=>{
 
-        const remainingItems = cart.filter((item)=> item._id !== _id) 
+        const remainingItems = cart.filter((item)=> item.productId !== _id) 
         setCart(remainingItems)
         localStorage.setItem("sai",JSON.stringify(remainingItems))
         priceUpdate()    
@@ -95,10 +95,11 @@ export const Shipping = ({setCurrState}) =>{
                         <li><strong>{ele.currentSku.listPrice}</strong></li>
                     </ul>
                     {/*  updated */}
-                    <button onClick = {()=>handleRemove(ele._id)} id="removebutton">Remove</button>
+                    <button onClick = {()=>handleRemove(ele.productId)} id="removebutton">Remove</button>
                 </div>
             </div>
            )}
+           {cart.length === 0 ? <div style={{fontSize:'large'}}>Your cart is empty!</div> : ''}
            </div>
            <div className="price_det">
                <div className="promo_code">
