@@ -24,8 +24,8 @@ export const Login = () => {
       alert("please fill required details")
       return
      }
-     const users = JSON.parse(localStorage.getItem("allusers"))
-     const user = users.find((ele) => {
+     const users = JSON.parse(localStorage.getItem("allusers")) || []
+     const user = users?.find((ele) => {
        if(ele.Email==emailer || ele.Num === emailer && ele.Password === pwd){
          return ele
         } 
